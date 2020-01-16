@@ -17,7 +17,7 @@
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 60vh;
+		height: 99vh;
 		margin-bottom: -3.25em;
 		max-height: 32em;
 		min-height: 22em;
@@ -86,16 +86,16 @@
 				}
 
 				p {
-					font-size: 0.7em;
+					font-size: 1.9em;
 					font-weight: _font(weight-bold);
-					letter-spacing: _font(letter-spacing-alt);
+					letter-spacing: 0.2em;
 					text-transform: uppercase;
 				}
 			}
 		}
 
 		&.major {
-			height: 75vh;
+			height: 90vh;
 			min-height: 30em;
 			max-height: 50em;
 
@@ -105,7 +105,7 @@
 		}
 
 		&.style1 { &:after { background-color: _palette(accent1); } }
-		&.style2 { &:after { background-color: _palette(accent2); } }
+		&.style2 { &:after { background-color: red; } }
 		&.style3 { &:after { background-color: _palette(accent3); } }
 		&.style4 { &:after { background-color: _palette(accent4); } }
 		&.style5 { &:after { background-color: _palette(accent5); } }
