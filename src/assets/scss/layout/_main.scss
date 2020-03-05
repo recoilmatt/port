@@ -7,15 +7,21 @@
 /* Main */
 
 	#main {
-		background-color: red;
+	
+	
 
 		> * {
-			border-top: solid 1px _palette(border);
-
 			&:first-child {
 				border-top: 0;
 			}
 
+			@include vendor('transition', (
+			'opacity 1.5s ease',
+			'transform 0.5s ease-out',
+			'filter 0.5s ease',
+			'-webkit-filter 0.5s ease'
+		));
+		
 			@include inner;
 		}
 

@@ -30,6 +30,7 @@
 		z-index: _misc(z-index-base) + 2;
 
 		.inner {
+			
 			@include vendor('transition', (
 				'transform #{_duration(menu)} ease-out',
 				'opacity #{_duration(menu)} ease',

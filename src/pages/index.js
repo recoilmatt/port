@@ -53,10 +53,10 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundColor: `darkblue`}}>
                             <header className="major">
-                                <h3>Travlr</h3>
+                                <h3>Wander</h3>
                                 <p>UI Design | UX Case Study</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/wander" className="link primary"></Link>
                         </article>
                         <article style={{backgroundColor: `darkgreen`}}>
                             <header className="major">

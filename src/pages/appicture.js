@@ -12,13 +12,12 @@ const Generic = (props) => (
 
         <div id="main" className="alt">
             <section id="one">
-                <div className="inner" style={{width: `50%`}}>
+                <div className="inner">
                     <header className="major">
-                        <h1>Generic</h1>
+                        <h1>Appicture</h1>
                     </header>
                     <span className="image main"><img src={pic11} alt="" /></span>
                     <p>
-                       
                         Team:
                         Individual
                         <br />
@@ -31,13 +30,12 @@ const Generic = (props) => (
                     </p>
                     <section class="overview">
                     <p><h1>Overview</h1>
-                    Appicture is a passion project that incorporates interests in trending social media and photography. This is designed for users to search from an aggregation of popular photography locations and curated posts. The pictures presented would be collected from user data, top rated hashtags, and established photography hubs.
+                    Appicture is a concept passion project that incorporates interests in trending social media and photography. This design allows aggregation of popular photography locations and curated posts. The pictures presented would be collected from user data, top rated hashtags, and established photography hubs.
                     </p>
                     <h1>User Research</h1>
-                    <p>I interviewed two participants: a photographer and a blogger, and asked them about what frustrations they have with their creative process. From my chats, I noticed they have periods of creative blocks in which they would like to create content, but they aren't finding the sources of inspiration. Like illustration and drawing, the concept of photography and content creation is the essentially the same. You need to gather inspiration from various sources in order become a better photographer and create visual content to your own styles of choice.
+                    <p>I interviewed two participants: a photographer and a blogger, and asked them about what frustrations they have with their creative process. From my chats, I noticed they have periods of creative blocks in which they would like to create content, but they aren't finding the sources of inspiration. Like illustration and drawing  the concept of photography and content creation is the essentially the same. You need to gather inspiration from various sources in order become a better photographer and create visual content to your own styles of choice.
                     </p>
                 </section>
-
                 <section>
                   <p><h1>Problem</h1>
                     Users need a tool to search and filter for targeted visual inspiration, as well as bookmark them for future reference. After arriving a core problem, I created a simple navigation map for the application. 
@@ -45,6 +43,23 @@ const Generic = (props) => (
                   </p>
                 </section>
 
+                <section>
+                    <p>
+                    <h1>Style Guide</h1>
+                    </p>
+                </section>
+                
+                <section>
+                    Wireframe
+                </section>
+
+                <section>
+                    Task Flow
+                </section>
+
+                <section>
+                    Final Designs
+                </section>
                       </div>
 
                 
