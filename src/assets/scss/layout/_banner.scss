@@ -16,7 +16,7 @@
 		background-repeat: no-repeat;
 		
 		cursor: default;
-		height: 99vh;
+		height: 100vh;
 		margin-bottom: -3.25em;
 		max-height: 32em;
 		min-height: 22em;
@@ -25,12 +25,12 @@
 
 		&:after {
 		
-			background-color: _palette(bg);
+			background-color: white;
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.5;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -42,12 +42,7 @@
 		}
 
 		> .inner {
-			@include vendor('transition', (
-				'opacity 1.5s ease',
-				'transform 0.5s ease-out',
-				'filter 0.5s ease',
-				'-webkit-filter 0.5s ease'
-			));
+		
 			
 			padding: 0 !important;
 			position: relative;
