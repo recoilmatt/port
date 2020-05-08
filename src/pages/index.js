@@ -25,7 +25,7 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundColor: `teal`}}>
                             <header className="major">
-                                <h3>Applied Medical</h3>
+                                <h3>Applied ffffMedddical</h3>
                                 <p>UX Design | UI Design</p>
                             </header>
                             <Link to="/applied" className="link primary"></Link>
