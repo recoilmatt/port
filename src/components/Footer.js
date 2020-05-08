@@ -2,11 +2,7 @@ import React from 'react'
 
 const Footer = (props) => (
     <footer id="footer">
-        <div className="inner" style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center"}}>
-                
+        <div className="inner">
             <ul className="icons">
                 <li><a href="http://www.instagram.com/recoilmatt" className="icon alt fa-dribbble"><span className="label">Dribble</span></a></li>
                 <li><a href="http://www.instagram.com/recoilmatt" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>

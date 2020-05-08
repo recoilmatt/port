@@ -3,9 +3,6 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 import pic11 from '../assets/images/pic11.jpg'
-import Trips from '../assets/images/Trips.png'
-import Detail from '../assets/images/Detail.png'
-import Wireframe from '../assets/images/Wireframe.jpeg'
 
 const Generic = props => (
   <Layout>
@@ -36,7 +33,7 @@ const Generic = props => (
           <br />
           <h2>Design Prompt</h2>
           <hr />
-          <p style={{textAlign: "center"}}>How can we improve the travel experience through an digital product?</p>
+          How can we improve the travel experience through an digital product?
           <hr />
           <h2>Introduction</h2>
           <p>
@@ -50,12 +47,8 @@ const Generic = props => (
             wanted, we gathered in small groups and listed current application
             solutions, features, users problems, activities people do, etc.
             during a quick brainstorming session.
-            <span className="image main">
-            <img src={pic11} alt="" />
-          </span>
-          
           </p>
-          <h2>Surveys + Interviews</h2>
+          <h2>Surveys and Interviews</h2>
           <p>
             Using Google Forms, I created a survey to collect traveling habits
             and pain points throughout my design cohort. In addition, I
@@ -70,23 +63,18 @@ const Generic = props => (
           <hr/>
           "I'd like a better detail for lodging options and planning ahead on who’d I'd like to collaborate and visit during my stay abroad."
           <hr/>
-          <h2>Pain Points</h2>
-          <p>
-          A few pain points that I was able to consider:
-          -
-          </p>
-         
+
           <h2>Problem Statement</h2>
           <hr />
           We have observed that Google Docs and TripAdvisor were not meeting these travel itinerary goals. We can improve this process to allow users to collaborate in real time to create an enjoyable, yet flexible itinerary at each stage of the travel journey.
           <hr />
 
-          <h2>Empathy Mapping / Persona</h2>
-         <p>Personas and Empathy mapping allows the designers to consider how other people are thinking
+          <p>Empathy Mapping / Persona</p>
+          Personas and Empathy mapping allows the designers to consider how other people are thinking
           and feeling, as well as have a reference that the needs are aligned to the user. I created a map for an ideal user Jessica on what she
           would say, do, think and feel. Through multiple interviews, I was able to
           create a persona of a user of the Wander application. 
-          [Empathy Map – 1.png Revised.png]</p>
+          [Empathy Map – 1.png Revised.png]
 
           <h2>User Journey</h2>
           <p>The benefit of this exercise allows the designer
@@ -106,24 +94,26 @@ const Generic = props => (
           itinerary.
           </p>
 
-          <h2>Competitive Analysis</h2>
+          <p>Competitive Analysis</p>
           [Competitive Analysis]
           
           <h2>Wireframing</h2>
-          <span className="image main">
-          <img src={Wireframe} style={{borderRadius: "8px"}} alt="" />
-          </span>
-          <p>In this initial wireframe sketch, I was considering a mobile first approach that allowed the user to switch between travel events. 
-            Features in this sketch included a floating action button that allowed the user to add into certain events throughout the application.
-            In addition, the user would be able to create a detailed event through mobile as well. 
-          </p>
-         
+          [Trip Selection Screen]
+           The floating action button
+          allows the user to select from a variety of different options to add
+          to their intinerary. Add Day.png 
+          [Itinerary Planning]
+          After the user
+          adds an event, it appears on this main screen here. In my mind, I was
+          planning something you could drag around blocks that flex around the
+          time schedule. The blocks would be added by the floating action button
+          on the bottom right hand corner. Add New Event.png 
+          dd an event A
+          simple screen to add images and event names and notes of the user
+          event entry. Notes could be added for the user to remind them of
+          places to stop by or events that they want to do. 
           <h2>High Fidelity</h2>
-          <span className="image main">
-          <img src={Detail} alt="" />
-          <img src={Trips} alt="" />
-          </span>
-         
+          <p>[Hi Fi]</p>
           <br/> 
           <h2>Final Thoughts</h2>
           <p>I would like to

@@ -25,15 +25,15 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundColor: `teal`}}>
                             <header className="major">
-                                <h3 style ={{color: `white`}}>Applied Medical</h3>
-                                <p style ={{color: `white`}}>UX Design | UI Design</p>
+                                <h3>Applied Medical</h3>
+                                <p>UX Design | UI Design</p>
                             </header>
                             <Link to="/applied" className="link primary"></Link>
                         </article>
                         <article style={{backgroundColor: `black`}}>
                             <header className="major">
-                                <h3 style ={{color: `white`}}>Appicture</h3>
-                                <p style ={{color: `white`}}>UX Design | UI Design</p>
+                                <h3>Appicture</h3>
+                                <p>UX Design | UI Design</p>
                             </header>
                             <Link to="/appicture" className="link primary"></Link>
                         </article>
@@ -51,17 +51,17 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundColor: `#7A8DB5`}}>
+                        <article style={{backgroundColor: `darkblue`}}>
                             <header className="major">
-                                <h3 style={{color: `white`}}>Wander</h3>
-                                <p style={{color: `white`}}>UI Design | UX Case Study</p>
+                                <h3>Wander</h3>
+                                <p>UI Design | UX Case Study</p>
                             </header>
                             <Link to="/wander" className="link primary"></Link>
                         </article>
                         <article style={{backgroundColor: `darkgreen`}}>
                             <header className="major">
-                                <h3 style={{color: `white`}}>Etiam</h3>
-                                <p style={{color: `white`}}>Feugiat amet tempus</p>
+                                <h3>Etiam</h3>
+                                <p>Feugiat amet tempus</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
