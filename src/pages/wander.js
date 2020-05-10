@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
+import Tabs from '../components/Tabs'
 
 import pic11 from '../assets/images/pic11.jpg'
 import Trips from '../assets/images/Trips.png'
@@ -72,8 +73,16 @@ const Generic = props => (
           <hr/>
           <h2>Pain Points</h2>
           <p>
-          A few pain points that I was able to consider:
-          -
+          A few pain points that I was able to consider after interviewing and survey results...
+          <br/> <br/>
+
+          <ul>
+            <li>Multiple applications needed for planning</li>
+            <li>Lack of collaboration options is frustrating</li>
+            <li>Friends/family conflicts with plans</li>
+          </ul>
+   
+
           </p>
          
           <h2>Problem Statement</h2>
@@ -81,12 +90,12 @@ const Generic = props => (
           We have observed that Google Docs and TripAdvisor were not meeting these travel itinerary goals. We can improve this process to allow users to collaborate in real time to create an enjoyable, yet flexible itinerary at each stage of the travel journey.
           <hr />
 
-          <h2>Empathy Mapping / Persona</h2>
+          <h2>Persona</h2>
          <p>Personas and Empathy mapping allows the designers to consider how other people are thinking
           and feeling, as well as have a reference that the needs are aligned to the user. I created a map for an ideal user Jessica on what she
           would say, do, think and feel. Through multiple interviews, I was able to
           create a persona of a user of the Wander application. 
-          [Empathy Map – 1.png Revised.png]</p>
+          </p>
 
           <h2>User Journey</h2>
           <p>The benefit of this exercise allows the designer
@@ -137,7 +146,11 @@ const Generic = props => (
         </div>
       </section>
     </div>
+    <Tabs />
   </Layout>
+ 
+
+
 )
 
 export default Generic

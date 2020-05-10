@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import pic11 from '../assets/images/pic11.jpg'
+import Tabs from '../components/Tabs'
 
 const Generic = (props) => (
     <Layout>
@@ -35,7 +36,7 @@ const Generic = (props) => (
                 
             </section>
         </div>
-
+        <Tabs />
     </Layout>
 )
 

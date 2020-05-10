@@ -6,8 +6,8 @@ const Header = (props) => (
     <header id="header" className="alt">
         <Link to="/" className="logo"><strong>matt lai</strong></Link>
         <nav>
-            <a href="generic">resume</a>
-            <a href="generic">projects</a>
+            <a href="resume">resume</a>
+            <a href="contact">contact</a>
         </nav>
     </header>
 )
