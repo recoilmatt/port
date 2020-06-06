@@ -15,7 +15,7 @@ const Generic = props => (
   <Layout>
     <Helmet>
       <title>Wander</title>
-      <meta name="description" content="Generic Page" />
+      <meta name="description" content="Wander Travel Concept" />
     </Helmet>
 
     <div id="main" className="alt">
@@ -30,16 +30,17 @@ const Generic = props => (
 
           <h2>Introduction</h2>
           <p>
-            In the first sprint of my design course at UCI Extension, our class
-            was tasked to solve a problem encountered while traveling. 
-            I had recently come back from my travels from Asia and I could
-            contribute using my personal experience. In order to find out what users
-            wanted, we gathered in groups and listed current solutions, features, user problems, activities during travel, etc., during a brainstorming session. My focus was to create a digital product that was delightful to use as a web application for planning and mobile accesibility while traveling abroad.
+            I'm an avid lover of exploring, as it introduces one to new perspectives, cultures, delcious food, and memorable experiences. In the first sprint of my UI/UX design course at UCI Extension, our class was tasked to solve a problem encountered while traveling. 
+            I had recently come back from from Japan and Hong Kong and I could contribute using my personal experiences.
+          </p> 
+          <p>
+            In order to explore a human centered design, we learned to investiage what users wanted -- we gathered in groups and listed current solutions, features, user problems, activities during travel, etc., during a brainstorming session. My focus was to create a digital product that was delightful to use as a web application for planning and mobile accesibility while traveling abroad.
+          </p>
             <span className="image main">
             <img src={pic11} alt="" />
           </span>
          
-          </p>
+      
         
           <h2>Design Prompt</h2>
           <hr />
@@ -58,33 +59,40 @@ const Generic = props => (
           </div>
          
            <p> 
-            In addition, I interviewed two travelers -- in which they had just vacationed abroad to Asia in the previous few months. These two interviews gave further insight into their personal motivations, what they would change next time, and how they traveled and planned
-            for their trips. 
+            In addition, I interviewed two people who traveled to Asia in the previous months. These two interviews gave me insight into their personal motivations, what they would change next time, and how they traveled and planned for their trips. 
           </p>
-          <hr/>
-          "I think the the most important aspect is the communication with people you’re traveling with. Especially if there is a clash in personality and interests. I've had arguments over little things."
-          <hr/>
-          "I'd like a better detail for lodging options and planning ahead on who’d I'd like to collaborate and visit during my stay abroad."
-          <hr/>
-          <h2>Pain Points</h2>
+        
+          <blockquote>"I think the the most important aspect is the <strong>communication</strong> with people you’re traveling with. Especially if there is a clash in personality and interests. I've had arguments over little things."</blockquote>
+          
+          <blockquote>"<strong> I don't like to be restricted </strong> to an itinerary, but I'd like a better detail for lodging options and planning ahead on who’d I'd like to collaborate and visit during my stay abroad."</blockquote>
+                
+          <h2>Insights</h2>
+          
           <p>
           These observations led me to pinpoint a few pain points that occurred throughout the travel journey.
           <br/> <br/>
 
           <ul>
             <li>Multiple applications are needed for planning.</li>
-            <li>Lack of collaboration options is frustrating.</li>
-            <li>Friends/family conflicts with plans.</li>
+            <li>Too little time to visit many places.</li>
+            <li>Lack of dedicated travel collaboration options is frustrating.</li>
+            <li>Users struggle to engage travel partners in the planning process. </li>
             <li>Plans don't go as 100% as expected.</li>
           </ul>
-   
-
+          <p>
+          My initial thoughts at this stage is solve two problems -- designing a feature that allows flexibility within a schedule, and the feature for peace of the mind if the trip does not go as planned.
           </p>
+          </p>
+
+          <h2>Competitive Analysis</h2>
+          <p>Lets take a look at how other applications travelers use to plan out their trips and see their flows as well.</p>
          
           <h2>Opportunity</h2>
-          <hr />
+         
+          <blockquote>
           We have observed that Google Docs and Sheets were <strong>not adequately meeting</strong> travel itinerary functionality. We can improve this process to allow users to collaborate in real time to create an itinerary to create an enjoyable experience at <strong>each stage</strong> of the travel journey.
-          <hr />
+          </blockquote>
+          
 
           <h2>Persona</h2>
          <p>After collaborating with my user interviews, I crafted a user persona -- Jennifer -- the ideal traveler using Wander.</p >
@@ -100,7 +108,7 @@ const Generic = props => (
           [user journey]
           </p>
           <h2>User Flow</h2>
-          <p>[create an intinerary] -> [collaborate with travelmates] -> [find suggestions] -> [explore/reference itinerary with mobile app]
+          <p>[create an itinerary] -> [collaborate with travelmates] -> [find suggestions] -> [explore/reference itinerary with mobile app]
           <br/>
      
           </p>
@@ -115,10 +123,11 @@ const Generic = props => (
          
 
           <h2>Initial Testing</h2>
-          <p>I was able to prototype a lo-fi mockup within Adobe XD and allowed my two test interviewers to complete tasks such as creating an itinerary, creating an event within that itinerary, and exploring a location nearby. I noted some interesting user feedback points -- 1. users wouldn't be doing a complex itinerary on a mobile application that often, and 2. adding an option to explore places could be a enticing source of inspiration for their plans. I synthesized this user feedback and incorporated that into my high fidelity designs. 
-
-          
+          <p>I was able to prototype a mockup within Adobe XD and asked my interviewers to complete tasks such as 1. creating an itinerary, 2. creating an event, and 3. exploring a location nearby. I noted some interesting user feedback points -- 1. users wouldn't be doing a complex itinerary on a mobile application that often, and 2. adding an option to explore places could be a enticing source of inspiration for their plans. I incorporated this user feedback into my high fidelity designs. 
           </p>
+          <blockquote>
+            Users want that fine balance between <strong>flexibility</strong> and <strong>discovery</strong> in their travel itinerary.
+          </blockquote>
 
          
           <h2>High Fidelity</h2>

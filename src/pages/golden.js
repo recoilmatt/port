@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Tabs from '../components/Tabs'
 import gvomockup from '../assets/images/gvomockup.png'
-
+import travel from '../assets/images/travel.jpg'
 
 const Generic = props => (
   <Layout>
@@ -11,36 +11,39 @@ const Generic = props => (
       <title>Applied Medical</title>
       <meta name="description" content="Generic Page" />
     </Helmet>
-
     <div id="main" className="alt">
+      <section id="one">
+        <div className="inner">
+
     <header className="major" style={{textAlign: "center"}}>
             <h1>Golden Vision Optometry</h1>
           </header>
+        
           <span className="image main">
-           
+            <img src={travel} style={{height: "200px", objectFit: "cover"}} alt="" />
           </span>
+       
 
           <h2>Introduction</h2>
+          <p>As a optician, I worked directly with the doctors and sales in order to create marketing materials, flyers, e-mail blasts, and advertising campaigns in order to promote designer brands such as IC Berlin, Rayban, and Tiffany & Co.</p>
+          <h2>Role</h2>
 
-I worked directly with the doctors, opticians, and sales in order to create marketing materials, flyers, e-mail blasts, and advertising campaigns in order to promote designer brands such as IC Berlin, Rayban, and Tiffany & Co.
-<h2>Role</h2>
+          <p>Web Design / Digital Marketing Associate / Graphic Designer</p>
+          <h2>Challenge</h2>
 
-Web Design / Digital Marketing Associate / Graphic Designer
-<h2>Challenge</h2>
+          <p>"While working at an optometric small business, the website needed content updates and a visual overhaul. I wanted to improve user experience, improve digital marketing, and attract potential new patients."</p>
 
-"While working at an optometric small business, the website needed content updates and a visual overhaul. I wanted to improve user experience, improve digital marketing, and attract potential new patients."
+          <h2>Research</h2>
 
-<h2>Research</h2>
-
-I interviewed patients and asked them about their eye appointment, and what could be done better to make a better patient experience. The discussions that I had suggested that patients would like to be more connected digitally online to schedule and remind them of their annual eye appointments for an overall smoother process. I was able to develop a user persona for the ideal individual who would be using Golden Vision Optometry website. The user needs that I’ve gathered are listed below:
-
-    Text/e-mail reminders for annual recall and upcoming appointments
-
-    Online appointment scheduling and availability
-
-    Easier navigation on website
-
-<h2>Site Audit</h2>
+          <p>I asked patients about their eye appointment, and what could be have done to make it a better patient experience. The discussions that I had suggested that patients would like to be more connected digitally to schedule and remind them of their annual eye appointments for an overall smoother process. I was able to develop a user persona for the ideal individual who would be using Golden Vision Optometry website.</p> 
+          <p>The user needs that I’ve gathered are listed below:
+            <ul>
+              <li>Text/e-mail reminders for annual recall and upcoming appointments</li>
+              <li>Online booking appointments</li>
+              <li>Easier navigation to access information on website</li>
+            </ul>
+          </p>
+          <h2>Site Audit</h2>
 
     The main user flows (online appointment scheduling + contacts reordering) were hard to navigate and not intuitive.
 
@@ -73,27 +76,38 @@ Some difficulties that I encountered during this project was media queries. I  h
 
 The blog carousel at the bottom the page had strong activity, and allows the patients to read fun information about the practice, as well as increase SEO visibility by creating new and informative content.
 </div>
-<h2>Analysis</h2>
+<h2>Analysis + Thoughts</h2>
 <p>
-This project gave me an opportunity demonstrate my design and branding skills for a small business website. By working directly with patients and doctors, I was able to formulate ideas for user needs and the corresponding solutions. I was able to design and create a website with a proper information architecture, allowing patients to increase readability and finding important medical information and increase the accessibility to schedule appointments online. In future redesigns, I would improve on my front end development skills and design different types of layouts.
+This project gave me an opportunity demonstrate my design, digital marketing, and branding skills for a small business. Working directly with patients and doctors, I was able to create marketing materials, and to design and create a website with a proper information architecture, allowing patients to increase readability and finding important medical information and increase the accessibility to schedule appointments online. In future redesigns, I would improve on my front end development skills and design different types of layouts.
 </p>
-<p>Here is a summary of the results achieved:</p>
+<h2>Summary + Results </h2>
 
-    Developed a social media content plan for optometry and eye care health information.
+    <ul>
+      <li> Developed a social media content plan for optometry and eye care health information.</li>
+      <li>SEO on Google is ranked consistently on the front page results with an avg. position 20.91.</li>
+      <li>Instagram / Facebook media growth in followers and social media events.</li>
+      <li>Google Analytics reported growth in almost 29% activity in the past month.</li>
+      <li>Online appointment system scheduling implemented improved office efficiency and bookings.</li>
+      <li>Impression rate of ~3,400 with over 500 unique visitors and a click rate of 2.09% in the month of Sept.</li>
+    </ul>
 
-    SEO on Google is ranked consistently on the front page results with an avg. position 20.91.
 
-    Instagram / Facebook media growth in followers and social media events.
+    
 
-    Google Analytics reported growth in almost 29% activity in the past month.
+    
 
-    Online appointment system scheduling implemented improved office efficiency and bookings.
+    
 
-    Impression rate of ~3,400 with over 500 unique visitors and a click rate of 2.09% in the month of Sept.
-        </div>
+    
+
+    
+ 
   
 
     <Tabs />
+    </div>
+      </section>
+    </div>
   </Layout>
  
 

@@ -122,10 +122,15 @@
 	}
 
 	blockquote {
+		font-size: 1.2em;
+		display: block;
+		border-width: 2px 0;
+		border-style: solid;
+		border-color: #eee;
+		position: relative;
 		border-left: solid 4px _palette(border);
-		font-style: italic;
 		margin: 0 0 _size(element-margin) 0;
-		padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4) _size(element-margin);
+		padding: (_size(element-margin)) 0 (_size(element-margin)) _size(element-margin);
 	}
 
 	code {

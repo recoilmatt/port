@@ -42,14 +42,14 @@ class HomeIndex extends React.Component {
                                 <h3>Epinex Diagonstics</h3>
                                 <p>Digital Marketing</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/epinex" className="link primary"></Link>
                         </article>
                         <article style={{backgroundColor: `goldenrod`}}>
                             <header className="major">
                                 <h3>Golden Vision Optometry</h3>
                                 <p>Web Design | Digital Marketing</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/golden" className="link primary"></Link>
                         </article>
                         <article style={{backgroundColor: `#7A8DB5`}}>
                             <header className="major">
