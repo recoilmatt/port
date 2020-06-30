@@ -30,13 +30,16 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/applied" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundColor: `black`}}>
+
+                        <article style={{backgroundColor: `#7A8DB5`}}>
                             <header className="major">
-                                <h3 style ={{color: `white`}}>Appicture</h3>
-                                <p style ={{color: `white`}}>UX Design | UI Design</p>
+                                <h3 style={{color: `white`}}>Wander</h3>
+                                <p style={{color: `white`}}>UI Design | UX Case Study</p>
                             </header>
-                            <Link to="/appicture" className="link primary"></Link>
+                            <Link to="/wander" className="link primary"></Link>
                         </article>
+
+                        
                         <article style={{backgroundColor: `gray`}}>
                             <header className="major">
                                 <h3>Epinex Diagonstics</h3>
@@ -51,19 +54,21 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/golden" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundColor: `#7A8DB5`}}>
-                            <header className="major">
-                                <h3 style={{color: `white`}}>Wander</h3>
-                                <p style={{color: `white`}}>UI Design | UX Case Study</p>
-                            </header>
-                            <Link to="/wander" className="link primary"></Link>
-                        </article>
+                        
                         <article style={{backgroundColor: `darkgreen`}}>
                             <header className="major">
                                 <h3 style={{color: `white`}}>Better</h3>
                                 <p style={{color: `white`}}>UI Design | UX Case Study</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/better" className="link primary"></Link>
+                        </article>
+
+                        <article style={{backgroundColor: `black`}}>
+                            <header className="major">
+                                <h3 style ={{color: `white`}}>Misc. Projects</h3>
+                                <p style ={{color: `white`}}>Design | UI Development</p>
+                            </header>
+                            <Link to="/misc" className="link primary"></Link>
                         </article>
                     </section>
                 

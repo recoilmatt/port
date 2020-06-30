@@ -3,12 +3,12 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Tabs from '../components/Tabs'
 import gvomockup from '../assets/images/gvomockup.png'
-import travel from '../assets/images/travel.jpg'
+import golden from '../assets/images/golden.jpg'
 
 const Generic = props => (
   <Layout>
     <Helmet>
-      <title>Applied Medical</title>
+      <title>Golden Vision Optometry</title>
       <meta name="description" content="Generic Page" />
     </Helmet>
     <div id="main" className="alt">
@@ -20,7 +20,7 @@ const Generic = props => (
           </header>
         
           <span className="image main">
-            <img src={travel} style={{height: "200px", objectFit: "cover"}} alt="" />
+            <img src={golden} style={{height: "200px", objectFit: "cover"}} alt="" />
           </span>
        
 
@@ -44,6 +44,7 @@ const Generic = props => (
             </ul>
           </p>
           <h2>Site Audit</h2>
+          <p>
 
     The main user flows (online appointment scheduling + contacts reordering) were hard to navigate and not intuitive.
 
@@ -56,25 +57,32 @@ const Generic = props => (
     The business website was not SEO optimized with metatags and descriptions.
 
     Mobile viewing and responsive page viewing was non-existent.
-
+  </p>
 <h2>Goals</h2>
+<p>
+○ Improve Usability - a website for mobile and desktop will allow users to find office and medical information more efficiently. 
+<br/>
 
-Improve Usability - a website for mobile and desktop will allow users to find office and medical information more efficiently. 
+○ Increases click through rates on call to actions for booking appointments.
+<br/>
+○ Update clean and modern visuals branding to attract a diverse patient base and make the website more appealing.
 
-Increases click through rates on call to actions for booking appointments.
-
-Update clean and modern visuals branding to attract a diverse patient base and make the website more appealing.
-
-<h2>User Feedback / Iterations</h2>
-<div>
+</p>
+<h2>Process</h2>
+<div style={{textAlign: 'center'}}>
 <img src={gvomockup} style={{borderRadius: "8px", width: '45vw'}} alt="" />
-In the first iteration, my design thinking was to create strong visual call to actions with the six block display, allowing the patient to reach necessary information about the practice as they scroll down the page. Each section banner of the front page and individual page uses parallax display in order to emulate a one page flow while scrolling through the page, thus bringing attention to important items and easier readability.
-
+<p>
+In my first iteration, my design thinking was to create strong visual call to actions with the six block display, allowing the patient to reach necessary information about the practice as they scroll down the page. Each section banner of the front page and individual page uses parallax display in order to emulate a one page flow while scrolling through the page, thus bringing attention to important items and easier readability.
+</p>
+<p>
 I applied heatmapping concepts using Hotjar to find the placement of the main CTA (request an appointment). Through my observations, I found out that many users preferred the left and center of the screen while scanning the screen as opposed to the right side of the screen.
-
-Some difficulties that I encountered during this project was media queries. I  had to make the text and images responsive across different screen sizes and mediums, but this was later solved after users informed me.
-
+</p>
+<p>
+Some difficulties that I encountered during this project was media queries. I had to make the text and images responsive across different screen sizes and mediums, but this was later solved after users informed me.
+</p>
+<p>
 The blog carousel at the bottom the page had strong activity, and allows the patients to read fun information about the practice, as well as increase SEO visibility by creating new and informative content.
+</p>
 </div>
 <h2>Analysis + Thoughts</h2>
 <p>
@@ -83,7 +91,7 @@ This project gave me an opportunity demonstrate my design, digital marketing, an
 <h2>Summary + Results </h2>
 
     <ul>
-      <li> Developed a social media content plan for optometry and eye care health information.</li>
+      <li>Developed a social media content plan for optometry and eye care health information.</li>
       <li>SEO on Google is ranked consistently on the front page results with an avg. position 20.91.</li>
       <li>Instagram / Facebook media growth in followers and social media events.</li>
       <li>Google Analytics reported growth in almost 29% activity in the past month.</li>

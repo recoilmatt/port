@@ -19,13 +19,14 @@ const Generic = (props) => (
                     </header>
                     <span className="image main"><img src={pic11} alt="" /></span>
                     <section class="overview">
-                    In my experience at Applied Medical, we've worked in various applications across multiple mediums -- web, mobile, and desktop.
-                    <br/>
-                    Team Member Development -- a web and mobile application for performance reviews and goal tracking.
-                    <br/>
-                    myApplied - a central destination to access Applied team member resources and applications.
-                    <br/>
-                    CRM Redesign - redesign of an iOS application for field team members and sales.
+                    <p>In my experience at Applied Medical, we've worked in various enterprise applications across multiple mediums -- web, mobile, and desktop.</p>
+                    
+                 
+                    <p>Team Member Development -- a web and mobile application for performance reviews and goal tracking. </p>
+                    <p>myApplied - a central destination to access Applied team member resources and applications.</p>
+                    <p>CRM Redesign - redesign of an iOS application for field team members and sales.</p>
+                    <p>Communication Center - a tool to reduce the dependecy of Outlook emails</p>
+                    <p>ToDoList</p> - a tool for Office 365 integration with enterprise applications.
                     </section>
                     
                 
