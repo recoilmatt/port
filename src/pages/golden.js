@@ -31,8 +31,8 @@ const Generic = props => (
           <p>Web Design / Digital Marketing Associate / Graphic Designer</p>
           <h2>Challenge</h2>
 
-          <p>"While working at an optometric small business, the website needed content updates and a visual overhaul. I wanted to improve user experience, improve digital marketing, and attract potential new patients."</p>
-
+          <blockquote>While working at an optometric small business, the website needed content updates and a visual overhaul. I wanted to improve user experience, improve digital marketing, and attract potential new patients."
+          </blockquote>
           <h2>Research</h2>
 
           <p>I asked patients about their eye appointment, and what could be have done to make it a better patient experience. The discussions that I had suggested that patients would like to be more connected digitally to schedule and remind them of their annual eye appointments for an overall smoother process. I was able to develop a user persona for the ideal individual who would be using Golden Vision Optometry website.</p> 
@@ -88,15 +88,15 @@ The blog carousel at the bottom the page had strong activity, and allows the pat
 <p>
 This project gave me an opportunity demonstrate my design, digital marketing, and branding skills for a small business. Working directly with patients and doctors, I was able to create marketing materials, and to design and create a website with a proper information architecture, allowing patients to increase readability and finding important medical information and increase the accessibility to schedule appointments online. In future redesigns, I would improve on my front end development skills and design different types of layouts.
 </p>
-<h2>Summary + Results </h2>
+<h2> Results </h2>
 
     <ul>
-      <li>Developed a social media content plan for optometry and eye care health information.</li>
-      <li>SEO on Google is ranked consistently on the front page results with an avg. position 20.91.</li>
-      <li>Instagram / Facebook media growth in followers and social media events.</li>
-      <li>Google Analytics reported growth in almost 29% activity in the past month.</li>
-      <li>Online appointment system scheduling implemented improved office efficiency and bookings.</li>
-      <li>Impression rate of ~3,400 with over 500 unique visitors and a click rate of 2.09% in the month of Sept.</li>
+      <li>Developed a <strong>social media content plan</strong> for optometry blogs and eye care health information.</li>
+      <li>SEO on Google is ranked consistently on the <strong>front page</strong> results with an avg. position 20.91.</li>
+      <li>Instagram / Facebook <strong>media growth</strong> in followers and social media events.</li>
+      <li>Google Analytics reported growth in almost <strong>29%</strong> activity in the past month.</li>
+      <li>Online appointment system scheduling implemented improved check in <strong>efficiency</strong> and increased bookings.</li>
+      <li>Impression rate of <strong>~3,400 with over 500 unique visitors and a click rate of 2.09%</strong> in the month of Sept.</li>
     </ul>
 
 
