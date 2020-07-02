@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import pic11 from '../assets/images/pic11.jpg'
 import Tabs from '../components/Tabs'
-import GDR from '../assets/images/gdr.jpg'
+
 
 const Generic = (props) => (
     <Layout>
@@ -25,18 +25,7 @@ const Generic = (props) => (
             <div className="grid-wrapper">
             <div className="col-12" style={{display:"flex", alignItems: "center"}}>
           
-            <img src={GDR} style={{marginBottom:"24px",boxShadow: "0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)", display:"block", margin:"auto",borderRadius: "8px", maxWidth: "100%", maxHeight: "100vh"}}alt="" />
-            <h2>General Document Routing</h2>
-            </div>
-
-            <div className="col-12" style={{display:"flex", alignItems: "center"}}>
-            <h2>myApplied</h2>
-            <img src={GDR} style={{marginBottom:"24px",boxShadow: "0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)", display:"block", margin:"auto",borderRadius: "8px", maxWidth: "100%", maxHeight: "100vh"}}alt="" />
-             </div>
-
-            <div className="col-12" style={{display:"flex", alignItems: "center"}}>
-            <h2>myApplied</h2>
-            <img src={GDR} style={{marginBottom:"24px",boxShadow: "0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)", display:"block", margin:"auto",borderRadius: "8px", maxWidth: "100%", maxHeight: "100vh"}}alt="" />
+       
              </div>
 
             </div>
