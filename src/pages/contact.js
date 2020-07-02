@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import Explore from '../assets/images/Explore.jpg'
+import matt from '../assets/images/mattmatt.jpg'
 
 const Generic = props => (
   <Layout>
@@ -33,7 +33,7 @@ const Generic = props => (
           
 
             <div className="col-6"> 
-           <img src={Explore} style={{display:"block",margin:"auto",borderRadius: "8px", maxWidth: "100%", maxHeight: "50vh"}}alt="" />
+           <img src={matt} style={{display:"block",margin:"auto",borderRadius: "8px", maxWidth: "100%", maxHeight: "50vh"}}alt="" />
             </div>
           </div>
         </div>
