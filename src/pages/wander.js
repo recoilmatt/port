@@ -11,6 +11,7 @@ import Trips from '../assets/images/Trips.png'
 import Detail from '../assets/images/Detail.png'
 import Wireframe from '../assets/images/Wireframe.jpeg'
 import Explore from '../assets/images/Explore.jpg'
+import Home from '../assets/images/Home.png'
 
 const Generic = props => (
   <Layout>
@@ -94,12 +95,14 @@ const Generic = props => (
 
           I conducted a competitive analysis between applications that users had suggested -- Google Docs, Google Maps, TripAdvisor.
 
-          Google Docs - strengths: 
+          Google Docs - strengths: manual data entry, real time collaboration. sharing documents and itineraries.
+          Google Trips - strengths: booking informaton from emails
+          Trip Advisor - strengths: 
          
           </p>
          
           <h2>Opportunity <span role="img" aria-label="opportunity">🌟</span></h2>
-         Thus, I was able to focus in a problem with travel journey and decided to tackle this problem...
+          <p>Using my research, I was able to focus on a specific problem within travel journey and decided to tackle it... </p>
           <blockquote>
           We have observed that Google Docs and Sheets were <strong>not adequately meeting</strong> travel itinerary functionality. We can improve this process to allow users to collaborate in real time to create an itinerary to create an enjoyable experience at <strong>each stage</strong> of the travel journey.
           </blockquote>
@@ -124,7 +127,10 @@ const Generic = props => (
          
 
           <h2>Initial Testing <span role="img" aria-label="persona">🕹️</span></h2>
-          <p>In the initial prototype, I asked users to complete a flow such as creating an itinerary, creating an event, and exploring a landmark nearby. I noted some down interesting user feedback points -- 1. users would prefer to plan a complex itinerary on desktop, and 2. adding an method to explore places could be source of inspiration for their plans. I incorporated this user feedback into my high fidelity designs. 
+          <p>In the initial prototype, I asked users to complete a flow such as creating an itinerary, creating an event, and exploring a landmark nearby. I noted some down interesting user feedback points -- 
+            <ul>1. users would prefer to plan a complex itinerary on desktop.</ul>
+            <ul>and 2. adding an method to explore places could be source of inspiration for their plans.</ul>
+           I incorporated this user feedback into my high fidelity designs. 
           </p>
           <blockquote>
             Users want that fine balance between <strong>flexibility</strong>, <strong>reassurance</strong>, and <strong>discovery</strong> in their travel itinerary.
@@ -158,11 +164,11 @@ const Generic = props => (
     </div>
     </div>
 
-    {/*Explore*/}
+    {/*Trips*/}
 
     <div className="grid-wrapper">
     <div className="col-6">
-    <img src={Explore} style={{maxWidth: "100%"}}alt="" />
+    <img style={{maxWidth: "80%",borderRadius: "8px",boxShadow: "0 5px 10px rgba(154,160,185,.25), 0 15px 40px rgba(166,173,201,.2)"}} src={Home} alt="" />
     </div>
     <div className="col-6" style={{display: "flex", alignItems: "center"}}>
     <div>

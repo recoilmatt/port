@@ -45,32 +45,37 @@ const Generic = props => (
           </p>
           <h2>Site Audit</h2>
           <p>
+            <ul>
 
-    The main user flows (online appointment scheduling + contacts reordering) were hard to navigate and not intuitive.
+              <li>The main user flows (online appointment scheduling + contacts reordering) were hard to navigate and not intuitive.</li>
 
-    Information architecture can be improved and navigation items can be put in collapsible menus and subcategories.
+              <li>Information architecture can be improved and navigation items can be put in collapsible menus and subcategories.</li>
 
-    Medical informational content with doctors and staff profiles needed to be updated.
+              <li>Medical informational content with doctors and staff profiles needed to be updated.</li>
 
-    The website visually needed to be brought up to trends and standards.
+              <li>The website visually needed to be brought up to trends and standards.</li>
 
-    The business website was not SEO optimized with metatags and descriptions.
+              <li>The business website was not SEO optimized with metatags and descriptions.</li>
 
-    Mobile viewing and responsive page viewing was non-existent.
+              <li>Mobile viewing and responsive page viewing was non-existent.</li>
+
+            </ul>
   </p>
 <h2>Goals</h2>
-<p>
+<blockquote>
 ○ Improve Usability - a website for mobile and desktop will allow users to find office and medical information more efficiently. 
 <br/>
 
 ○ Increases click through rates on call to actions for booking appointments.
 <br/>
 ○ Update clean and modern visuals branding to attract a diverse patient base and make the website more appealing.
+</blockquote>
 
-</p>
 <h2>Process</h2>
 <div style={{textAlign: 'center'}}>
 <img src={gvomockup} style={{borderRadius: "8px", width: '45vw'}} alt="" />
+</div>
+<div>
 <p>
 In my first iteration, my design thinking was to create strong visual call to actions with the six block display, allowing the patient to reach necessary information about the practice as they scroll down the page. Each section banner of the front page and individual page uses parallax display in order to emulate a one page flow while scrolling through the page, thus bringing attention to important items and easier readability.
 </p>
