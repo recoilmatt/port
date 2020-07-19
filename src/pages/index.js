@@ -42,7 +42,7 @@ class HomeIndex extends React.Component {
                         
                         <article style={{backgroundColor: `gray`}}>
                             <header className="major">
-                                <h3>Epinex Diagonstics</h3>
+                                <h3>Epinex Diagnostics</h3>
                                 <p>Digital Marketing</p>
                             </header>
                             <Link to="/epinex" className="link primary"></Link>
@@ -57,10 +57,10 @@ class HomeIndex extends React.Component {
                         
                         <article style={{backgroundColor: `darkgreen`}}>
                             <header className="major">
-                                <h3 style={{color: `white`}}>Better</h3>
-                                <p style={{color: `white`}}>UI Design | UX Case Study</p>
+                                <h3 style={{color: `white`}}>ExamWriter Optometry EHR</h3>
+                                <p style={{color: `white`}}>UI Design | Redesign Concept</p>
                             </header>
-                            <Link to="/better" className="link primary"></Link>
+                            <Link to="/examwriter" className="link primary"></Link>
                         </article>
 
                         <article style={{backgroundColor: `black`}}>

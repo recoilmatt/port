@@ -6,7 +6,7 @@ import tax from '../assets/images/tax.png'
 const Generic = props => (
   <Layout>
     <Helmet>
-      <title>Applied Medical</title>
+      <title>Misc. Development Projects</title>
       <meta name="description" content="Generic Page" />
     </Helmet>
 

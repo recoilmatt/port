@@ -7,7 +7,7 @@ const Generic = props => (
   <Layout>
     <Helmet>
       <title>Contact</title>
-      <meta name="description" content="Generic Page" />
+      <meta name="description" content="Contact" />
     </Helmet>
 
     <section id="banner" className="major">
@@ -19,7 +19,7 @@ const Generic = props => (
         <div className="grid-wrapper">
           <div className="col-6">
             <p>
-              By integrating my experiences in biological sciences, healthcare, and digital marketing, I am able to apply my skills towards the design process in order to create meaningful digital products that solve problems and improve usability. I'd like to expand my skills to become a UX Engineer in the future.
+              By integrating my experiences in biological sciences, healthcare, and digital marketing, I am able to apply my skills towards the design process in order to create meaningful digital products that solve problems and improve usability. I'd like to expand my front end development skills to become an UX Engineer in the future.
             </p>
             <p>My hobbies include photography, travel, and matcha related things. I'm cooler on Instagram <a href="http://www.instagram.com/recoilmatt">@recoilmatt</a></p>
           </div>

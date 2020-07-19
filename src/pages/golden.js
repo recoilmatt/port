@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Tabs from '../components/Tabs'
-import gvomockup from '../assets/images/gvomockup.png'
+import gvomockup from '../assets/images/gvomockup.jpg'
 import golden from '../assets/images/golden.jpg'
 
 const Generic = props => (
@@ -73,7 +73,8 @@ const Generic = props => (
 
 <h2>Process</h2>
 <div style={{textAlign: 'center'}}>
-<img src={gvomockup} style={{borderRadius: "8px", width: '45vw'}} alt="" />
+<img src={gvomockup} style={{borderRadius: "8px", width: '100%',  boxShadow:
+                  '0 5px 10px rgba(154,160,185,.25), 0 15px 40px rgba(166,173,201,.2)'}} alt="" />
 </div>
 <div>
 <p>
