@@ -25,6 +25,25 @@ const Tabs = (props) => (
                 <span>Wander</span></a>
         </div>
 
+        <div className="link" style={{
+                paddingRight: "1em"}}>
+            <a href="/golden">
+                <span>Golden Vision Optometry</span></a>
+        </div>
+
+        <div className="link" style={{
+                paddingRight: "1em"}}>
+            <a href="/examwriter">
+                <span>ExamWriter</span></a>
+        </div>
+
+        <div className="link" style={{
+                paddingRight: "1em"}}>
+            <a href="/misc">
+                <span>Misc Projects</span></a>
+        </div>
+
+
         
     </div>
 )

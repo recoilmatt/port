@@ -19,13 +19,13 @@ const Generic = props => (
             <h1>ExamWriter [Redesign Concept]</h1>
           </header>
           <span className="image main">
-          <img src={Overview}/>       
+          <img src={Overview} alt = "overview"/>       
           </span>
           <span className="image main">
-          <img src={Goals}/>       
+          <img src={Goals} alt = "goals"/>       
           </span>
           <span className="image main">
-          <img src={MacGlasses}/>       
+          <img src={MacGlasses} alt = "glasses"/>       
           </span>
           </div>
       </section>

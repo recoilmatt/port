@@ -7,7 +7,7 @@ import Tabs from '../components/Tabs'
 const Generic = (props) => (
     <Layout>
         <Helmet>
-            <title>Applied</title>
+            <title>Epinex</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
 

@@ -2,41 +2,52 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import tax from '../assets/images/tax.png'
+import Shef from '../assets/images/shef.png'
+import Tabs from '../components/Tabs'
 
-const Generic = props => (
+const Generic = (props) => (
   <Layout>
     <Helmet>
-      <title>Misc. Development Projects</title>
-      <meta name="description" content="Generic Page" />
+      <title>Development Projects</title>
+      <meta name="description" content="Dev Projects" />
     </Helmet>
 
-    <section id="banner" className="major">
+    <div id="main" className="alt">
+      <section id="one">
         <div className="inner">
-            <header className="major">
-                <h1>Misc. Projects</h1>
-            </header>
-            
-          <div className="grid-wrapper">
-            <div className="col-12" style={{display:"flex", alignItems: "center"}}>
+
+          <header className="major">
+            <h1>Development Projects</h1>
+          </header>
+
+          <span className="image main"><img src={tax} alt="kl associates" /></span>
+          <section class="overview">
+            <div className="col-12" style={{ display: "flex", justifyContent: "center",alignItems: "center" }}>
+
+              <a href="https://github.com/recoilmatt/klassociates"><div className="button">github</div></a>
+              <a href="https://klassociates.netlify.app/"><div className="button">live</div></a>
+            </div>   
+          </section>
+
+          <span className="image main"><img src={Shef} alt="shef" /></span>
+          <section class="overview">
+            <div className="col-12" style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+
+              <a href="https://github.com/recoilmatt/shef"><div className="button">github</div></a>
+              <a href="https://shef.netlify.app/"><div className="button">live</div></a>
+            </div>   
+          </section>
+
           
-            <img src={tax} style={{marginBottom:"24px",boxShadow: "0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)", display:"block", margin:"auto",borderRadius: "8px", maxWidth: "100%", maxHeight: "50vh"}}alt="" />
-           
-
-            <a href="https://github.com/recoilmatt/klassociates"><div className="button">github</div></a>
-            <a href="https://klassociates.netlify.app/"><div className="button">live</div></a>
-       
         </div>
-        </div>
-        </div>
-    </section>
 
-  
 
-   
+
+
+      </section>
+    </div>
+    <Tabs />
   </Layout>
- 
-
-
 )
 
 export default Generic
