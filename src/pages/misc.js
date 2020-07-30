@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import tax from '../assets/images/tax.png'
-import Shef from '../assets/images/shef.png'
+import shef from '../assets/images/shefmock.png'
 import Tabs from '../components/Tabs'
 
 const Generic = (props) => (
@@ -29,7 +29,7 @@ const Generic = (props) => (
             </div>   
           </section>
 
-          <span className="image main"><img src={Shef} alt="shef" /></span>
+          <span className="image main"><img src={shef} alt="shef" /></span>
           <section class="overview">
             <div className="col-12" style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
 
