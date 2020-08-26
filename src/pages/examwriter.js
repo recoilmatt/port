@@ -4,6 +4,10 @@ import Layout from '../components/layout'
 import Overview from '../assets/images/Overview.png'
 import Goals from '../assets/images/Goals.png'
 import MacGlasses from '../assets/images/MacGlasses.png'
+import Palette from '../assets/images/Palette.png'
+import Feature from '../assets/images/Feature.png'
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 const Generic = props => (
   <Layout>
@@ -14,30 +18,33 @@ const Generic = props => (
 
     <div id="main" className="alt">
       <section id="one">
-        <div className="inner" style={{width:"90%"}}>
+        <div className="inner" style={{ width: '90%' }}>
           <header className="major">
             <h1>ExamWriter [Redesign Concept]</h1>
           </header>
+
           <span className="image main">
-          <img src={Overview} alt = "overview"/>       
+            <img src={Overview} alt="overview" />
+          </span>
+
+          <span className="image main">
+            <img src={Goals} alt="goals" />
           </span>
           <span className="image main">
-          <img src={Goals} alt = "goals"/>       
+            <img src={MacGlasses} alt="glasses" />
           </span>
+          <Zoom>
+            <span className="image main">
+              <img src={Palette} alt="glasses" />
+            </span>
+          </Zoom>
           <span className="image main">
-          <img src={MacGlasses} alt = "glasses"/>       
+            <img src={Feature} alt="glasses" />
           </span>
-          </div>
+        </div>
       </section>
-      </div>
-
-  
-
-   
+    </div>
   </Layout>
- 
-
-
 )
 
 export default Generic

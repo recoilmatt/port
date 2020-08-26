@@ -14,6 +14,7 @@ import Home from '../assets/images/Home.png'
 import NearMe from '../assets/images/NearMe.png'
 import Wander from '../assets/images/wander.png'
 import Info from '../assets/images/Info.png'
+import animation from '../assets/images/animation.webm'
 
 const Generic = props => (
   <Layout>
@@ -29,13 +30,9 @@ const Generic = props => (
             <h1>Wander [Travel Design Project]</h1>
           </header>
           <span className="image main">
-            <img
-              src={Wander}
-              style={{objectFit: 'cover' }}
-              alt=""
-            />
+            <img src={Wander} style={{ objectFit: 'cover' }} alt="" />
           </span>
-          
+
           <h2>
             Introduction
             <span role="img" aria-label="intro">
@@ -50,11 +47,12 @@ const Generic = props => (
             encountered while traveling.
           </p>
 
-            <p>
+          <p>
             In order to explore human centered design, we investigated what
             users wanted -- we gathered in groups and listed what were the
             current solutions, features, user problems, activities during
-            travel, etc., during a brainstorming session. My design goals was to create a product that is intuitive, flexible, and beautiful.
+            travel, etc., during a brainstorming session. My design goals was to
+            create a product that is intuitive, flexible, and beautiful.
           </p>
 
           <span className="image main">
@@ -86,8 +84,8 @@ const Generic = props => (
           </h2>
           <p>
             My initial research started off with posting a quick survey on a
-            travel group to gather what applications travelers used on
-            for their journey.
+            travel group to gather what applications travelers used on for their
+            journey.
           </p>
           <p>
             Google Sheets / Docs - 177 <br />
@@ -104,13 +102,13 @@ const Generic = props => (
           <p>
             In addition, I conducted four user interviews who had traveled
             within the previous months. These interviews gave me insight into
-            how they booked their accommodations, their personal motivations, what they
-            would change next time, pain points, and how they traveled and
-            planned for their trips.
+            how they booked their accommodations, their personal motivations,
+            what they would change next time, pain points, and how they traveled
+            and planned for their trips.
           </p>
 
           <blockquote>
-            "I think the the most important aspect is the 
+            "I think the the most important aspect is the
             <strong> communication</strong> with people you’re traveling with.
             Especially if there is a clash in personality and interests. I've
             had arguments over little things." - Kathleen
@@ -137,10 +135,12 @@ const Generic = props => (
               planning (4/4)
             </li>
             <li>
-              There's too little time to visit many places on the schedule. (3/4)
+              There's too little time to visit many places on the schedule.
+              (3/4)
             </li>
             <li>
-              Lack of dedicated travel collaboration options is frustrating. (2/4)
+              Lack of dedicated travel collaboration options is frustrating.
+              (2/4)
             </li>
             <li>
               Users struggle to engage travel partners of choices in the
@@ -152,8 +152,8 @@ const Generic = props => (
           <p>
             At this stage, my initial thoughts were to solve the problems for
             two sets of users -- I had to narrow down on features that allow
-            flexibility within a schedule, but also assists in peace of the
-            mind if the trip does not go as planned.
+            flexibility within a schedule, but also assists in peace of the mind
+            if the trip does not go as planned.
           </p>
 
           <h2>
@@ -163,59 +163,62 @@ const Generic = props => (
             </span>
           </h2>
           <p>
-            I conducted a competitive audit between applications that users
-            had suggested.
+            I conducted a competitive audit between applications that users had
+            suggested.
             <p>
               <ul>
-              <br/>
+                <br />
                 <li>Google Docs/Sheets</li> - strengths: manual data entry, real
                 time collaboration. sharing documents and itineraries.
-                <br/>
-                -weakness: a general tool not customized to travel, no suggestions, creating own templates.
+                <br />
+                -weakness: a general tool not customized to travel, no
+                suggestions, creating own templates.
                 <li>Google Trips</li> strengths: booking information from
-                emails, nearby things to do, reservations, offline mode<br />
+                emails, nearby things to do, reservations, offline mode
+                <br />
                 weakness: limited personalization, no events finding.
                 <li>Trip Advisor</li>- strengths: allows users to find
                 accomodations, food, and sights based on location. also has a
                 forum.
-                <br/>
-                -weaknesses: cannot add to an intinerary, trust in sponsored reviews?
+                <br />
+                -weaknesses: cannot add to an intinerary, trust in sponsored
+                reviews?
                 <li>WanderLog</li>
-                -strengths: free, guide and planning modes, sharing features, map features
-                <br/>
-                -weaknesses: 
+                -strengths: free, guide and planning modes, sharing features,
+                map features
+                <br />
+                -weaknesses:
               </ul>
             </p>
           </p>
 
           <h2>
-            Opportunity
+            Opportunity &nbsp;
             <span role="img" aria-label="opportunity">
               🌟
             </span>
           </h2>
           <p>
-            Synthesizing the research results, I was able to focus on a specific
-            problem within travel journey and decided to tackle it...
+            Analyzing my research results, I was able to focus on a specific
+            problem within travel journey...
           </p>
           <blockquote>
             We have observed that Google Docs and Sheets were
-            <strong> not adequately meeting</strong> travel itinerary
-            functionality. We can improve this process to allow users to
+            <strong> not adequately meeting the travel itinerary </strong>
+            functionality. We can improve this process by allowing users to
             collaborate in real time to create an itinerary to create an
-            enjoyable experience at <strong>each stage</strong> of the travel
-            journey.
+            experience at <strong>every stage</strong> of the travel journey.
           </blockquote>
 
           <h2>
-            Persona
+            Persona &nbsp;
             <span role="img" aria-label="persona">
               🙋‍♀️
             </span>
           </h2>
           <p>
             After collaborating with my user interviews, I crafted a user
-            persona -- Jennifer -- the ideal traveler using Wander.
+            persona -- Jennifer -- the ideal Wanderer.
             <div className="col-12">
               <span className="image main"></span>
               <img
@@ -232,24 +235,24 @@ const Generic = props => (
           </p>
 
           <h2>
-            Wireframing
+            Wireframing &nbsp;
             <span role="img" aria-label="wireframing">
               ✏️
             </span>
           </h2>
 
           <p>
-            In this initial sketch, the main screen displays an event with a
-            timeline is shown. Features included a floating action button that
-            allows the user to add into certain events throughout the
-            application, as well as suggestions based on the travel destination.
+            In this initial sketch, I had a task flow to feature the timeline to
+            organize and create events through a card structure. A floating
+            action button was added to access many different features such as
+            adding a new day, a suggestion, or new food spot.
             <span className="image main">
               <img src={Wireframe} style={{ borderRadius: '8px' }} alt="" />
             </span>
           </p>
 
           <h2>
-            Initial Testing
+            Initial Testing &nbsp;
             <span role="img" aria-label="persona">
               🕹️
             </span>
@@ -257,25 +260,25 @@ const Generic = props => (
           <p>
             In the initial prototype, I asked users to complete a flow such as
             creating an itinerary, creating an event, and exploring a landmark
-            nearby. I noted some down interesting user feedback points --
-
-            <ul style={{paddingTop:"10px"}}>
+            nearby. I noted some down interesting user feedback points...
+            <ul style={{ paddingTop: '16px' }}>
               <li>
-                Users would much rather prefer to plan a complex itinerary on
-                desktop.
+                Users would much rather plan a complex itinerary on desktop, and
+                view quick information on mobile.
               </li>
               <li>
                 A feature to chat/text/voice with travelmates while planning.
+                Phase II?
               </li>
               <li>
-                Explore as the opening to discover places as source of
-                inspiration for their plans.
+                Rework the flow to Explore as the opening to discover places as
+                source of inspiration for their plans.
               </li>
               <li>
-                Flight tracking and accommodation tracking needed to be addressed in the travel process (preplanning).
+                Flight tracking and accommodation tracking needed to be
+                addressed in the travel process (preplanning). Phase II?
               </li>
             </ul>
-            I tried incorporated this user feedback into my high fidelity designs.
           </p>
           <blockquote>
             Users want that fine balance between <strong>flexibility</strong>,
@@ -305,20 +308,27 @@ const Generic = props => (
           </div>
 
           <p>
-            After usability testing, I refined the product requirements to include the
-            three principles of traveling that users needed:
-            <strong> flexibility, reassurance, and discovery</strong>. 
-            <ul style={{paddingTop:"10px"}}>
-
-              <li>Users would now begin the journey with an Explore screen to gather and share information.
+            After usability testing, I refined the product requirements to
+            include the three principles of traveling that users needed:
+            <strong> flexibility, reassurance, and discovery</strong>.
+            <ul style={{ paddingTop: '10px' }}>
+              <li>
+                Users would now begin the journey with an Explore screen to
+                gather and share information.
               </li>
-              <li>The itinerary planning stage allows users to share ideas with the group. 
+              <li>
+                The itinerary planning stage allows users to share ideas with
+                the group.
               </li>
-              <li>The group can add/edit their ideas with the flexibility to move plans as the group
+              <li>
+                The group can add/edit their ideas with the flexibility to move
+                plans as the group
               </li>
               <li>Travelers can search for attractions. </li>
-              <li>They can share and collaborate the final itinerary with other travelers throughout the world.</li>
-             
+              <li>
+                They can share and collaborate the final itinerary with other
+                travelers throughout the world.
+              </li>
             </ul>
           </p>
 
@@ -339,17 +349,14 @@ const Generic = props => (
               <div>
                 <h3>Explore</h3>
                 <p>
-                  We are presented with an exploration screen with
-                  stories, blogs, and resources to begin the journey. This is
-                  the discovery phase of the travel process.
+                  We are presented with an exploration screen with stories,
+                  blogs, and resources to begin the journey. This is the
+                  discovery phase of the travel process.
                 </p>
               </div>
             </div>
             <div className="col-6">
-              <img 
-              src={Explore} 
-              style={{ maxWidth: '100%' }} 
-              alt="" />
+              <img src={Explore} style={{ maxWidth: '100%' }} alt="" />
             </div>
           </div>
 
@@ -357,10 +364,7 @@ const Generic = props => (
 
           <div className="grid-wrapper">
             <div className="col-6">
-              <img 
-              src={Home} 
-              style={{ maxWidth: '100%' }} 
-              alt="" />
+              <img src={Home} style={{ maxWidth: '100%' }} alt="" />
             </div>
             <div
               className="col-6"
@@ -381,12 +385,16 @@ const Generic = props => (
           <div className="grid-wrapper">
             <div
               className="col-4"
-              style={{ display: 'flex', alignItems: 'center' }}>
+              style={{ display: 'flex', alignItems: 'center' }}
+            >
               <div>
                 <h3>Near Me</h3>
                 <p>
-                  Near Me allows the peace of mind for the travelers to find locations of interest when they are wandering a new location -- new restaurants, sights, and explorations within a certain area.
-                        </p>
+                  Near Me allows the peace of mind for the travelers to find
+                  locations of interest when they are wandering a new location
+                  -- new restaurants, sights, and explorations within a certain
+                  area.
+                </p>
               </div>
             </div>
 
@@ -395,14 +403,11 @@ const Generic = props => (
             </div>
           </div>
 
-                 {/*Trips*/}
+          {/*Trips*/}
 
-                 <div className="grid-wrapper">
+          <div className="grid-wrapper">
             <div className="col-6">
-              <img 
-              src={Info} 
-              style={{ maxWidth: '100%' }} 
-              alt="" />
+              <img src={Info} style={{ maxWidth: '100%' }} alt="" />
             </div>
             <div
               className="col-6"
@@ -433,7 +438,9 @@ const Generic = props => (
             />
           </span>
 
-          
+          <video width="100%" height="100%" autoPlay muted loop>
+            <source src={animation} type="video/webm" />
+          </video>
 
           <br />
           <h2>
@@ -443,7 +450,10 @@ const Generic = props => (
             </span>
           </h2>
           <p>
-            In this project, I was able to explore the ux process and how to apply it when creating a digital project. In the future, I would like to develop more my analytical ux skills, and visual design skills.
+            In this project, I was able to explore the ux process and how to
+            apply it when creating a digital project. In the future, I would
+            like to develop more my analytical ux skills, and visual design
+            skills.
           </p>
         </div>
       </section>

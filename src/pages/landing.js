@@ -6,8 +6,7 @@ import BannerLanding from '../components/BannerLanding'
 
 import pic08 from '../assets/images/pic08.jpg'
 
-
-const Landing = (props) => (
+const Landing = props => (
     <Layout>
         <Helmet>
             <title>Landing - Forty by HTML5 UP</title>
@@ -24,7 +23,7 @@ const Landing = (props) => (
                     </header>
                 </div>
             </section>
-            
+
             <section id="two" className="spotlights">
                 <section>
                     <Link to="/generic" className="image">
@@ -35,18 +34,25 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Orci maecenas</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>
+                                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
+                                magna sed nunc rhoncus condimentum sem. In efficitur ligula tate
+                                urna. Maecenas massa sed magna lacinia magna pellentesque lorem
+                                ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
+                                Vivamus et sagittis tempus.
+              </p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li>
+                                    <Link to="/generic" className="button">
+                                        Learn more
+                  </Link>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </section>
-                
-            
             </section>
         </div>
-
     </Layout>
 )
 

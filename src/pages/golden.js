@@ -15,14 +15,14 @@ const Generic = props => (
       <section id="one">
         <div className="inner">
 
-    <header className="major" style={{textAlign: "center"}}>
+          <header className="major" style={{ textAlign: "center" }}>
             <h1>Golden Vision Optometry</h1>
           </header>
-        
+
           <span className="image main">
-            <img src={golden} style={{height: "200px", objectFit: "cover"}} alt="" />
+            <img src={golden} style={{ height: "200px", objectFit: "cover" }} alt="" />
           </span>
-       
+
 
           <h2>Introduction</h2>
           <p>As a optician, I worked directly with the doctors and sales in order to create marketing materials, flyers, e-mail blasts, and advertising campaigns in order to promote designer brands such as IC Berlin, Rayban, and Tiffany & Co.</p>
@@ -35,7 +35,7 @@ const Generic = props => (
           </blockquote>
           <h2>Research</h2>
 
-          <p>I asked patients about their eye appointment, and what could be have done to make it a better patient experience. The discussions that I had suggested that patients would like to be more connected digitally to schedule and remind them of their annual eye appointments for an overall smoother process. I was able to develop a user persona for the ideal individual who would be using Golden Vision Optometry website.</p> 
+          <p>I asked patients about their eye appointment, and what could be have done to make it a better patient experience. The discussions that I had suggested that patients would like to be more connected digitally to schedule and remind them of their annual eye appointments for an overall smoother process. I was able to develop a user persona for the ideal individual who would be using Golden Vision Optometry website.</p>
           <p>The user needs that I’ve gathered are listed below:
             <ul>
               <li>Text/e-mail reminders for annual recall and upcoming appointments</li>
@@ -60,70 +60,72 @@ const Generic = props => (
               <li>Mobile viewing and responsive page viewing was non-existent.</li>
 
             </ul>
-  </p>
-<h2>Goals</h2>
-<blockquote>
-○ Improve Usability - a website for mobile and desktop will allow users to find office and medical information more efficiently. 
-<br/>
+          </p>
+          <h2>Goals</h2>
+          <blockquote>
+            ○ Improve Usability - a website for mobile and desktop will allow users to find office and medical information more efficiently.
+<br />
 
 ○ Increases click through rates on call to actions for booking appointments.
-<br/>
+<br />
 ○ Update clean and modern visuals branding to attract a diverse patient base and make the website more appealing.
 </blockquote>
 
-<h2>Process</h2>
-<div style={{textAlign: 'center'}}>
-<img src={gvomockup} style={{borderRadius: "8px", width: '100%',  boxShadow:
-                  '0 5px 10px rgba(154,160,185,.25), 0 15px 40px rgba(166,173,201,.2)'}} alt="" />
-</div>
-<div>
-<p>
-In my first iteration, my design thinking was to create strong visual call to actions with the six block display, allowing the patient to reach necessary information about the practice as they scroll down the page. Each section banner of the front page and individual page uses parallax display in order to emulate a one page flow while scrolling through the page, thus bringing attention to important items and easier readability.
+          <h2>Process</h2>
+          <div style={{ textAlign: 'center' }}>
+            <img src={gvomockup} style={{
+              borderRadius: "8px", width: '100%', boxShadow:
+                '0 5px 10px rgba(154,160,185,.25), 0 15px 40px rgba(166,173,201,.2)'
+            }} alt="" />
+          </div>
+          <div>
+            <p>
+              In my first iteration, my design thinking was to create strong visual call to actions with the six block display, allowing the patient to reach necessary information about the practice as they scroll down the page. Each section banner of the front page and individual page uses parallax display in order to emulate a one page flow while scrolling through the page, thus bringing attention to important items and easier readability.
 </p>
-<p>
-I applied heatmapping concepts using Hotjar to find the placement of the main CTA (request an appointment). Through my observations, I found out that many users preferred the left and center of the screen while scanning the screen as opposed to the right side of the screen.
+            <p>
+              I applied heatmapping concepts using Hotjar to find the placement of the main CTA (request an appointment). Through my observations, I found out that many users preferred the left and center of the screen while scanning the screen as opposed to the right side of the screen.
 </p>
-<p>
-Some difficulties that I encountered during this project was media queries. I had to make the text and images responsive across different screen sizes and mediums, but this was later solved after users informed me.
+            <p>
+              Some difficulties that I encountered during this project was media queries. I had to make the text and images responsive across different screen sizes and mediums, but this was later solved after users informed me.
 </p>
-<p>
-The blog carousel at the bottom the page had strong activity, and allows the patients to read fun information about the practice, as well as increase SEO visibility by creating new and informative content.
+            <p>
+              The blog carousel at the bottom the page had strong activity, and allows the patients to read fun information about the practice, as well as increase SEO visibility by creating new and informative content.
 </p>
-</div>
-<h2>Analysis + Thoughts</h2>
-<p>
-This project gave me an opportunity demonstrate my design, digital marketing, and branding skills for a small business. Working directly with patients and doctors, I was able to create marketing materials, and to design and create a website with a proper information architecture, allowing patients to increase readability and finding important medical information and increase the accessibility to schedule appointments online. In future redesigns, I would improve on my front end development skills and design different types of layouts.
+          </div>
+          <h2>Analysis + Thoughts</h2>
+          <p>
+            This project gave me an opportunity demonstrate my design, digital marketing, and branding skills for a small business. Working directly with patients and doctors, I was able to create marketing materials, and to design and create a website with a proper information architecture, allowing patients to increase readability and finding important medical information and increase the accessibility to schedule appointments online. In future redesigns, I would improve on my front end development skills and design different types of layouts.
 </p>
-<h2> Results </h2>
+          <h2> Results </h2>
 
-    <ul>
-      <li>Developed a <strong>social media content plan</strong> for optometry blogs and eye care health information.</li>
-      <li>SEO on Google is ranked consistently on the <strong>front page</strong> results with an avg. position 20.91.</li>
-      <li>Instagram / Facebook <strong>media growth</strong> in followers and social media events.</li>
-      <li>Google Analytics reported growth in almost <strong>29%</strong> activity in the past month.</li>
-      <li>Online appointment system scheduling implemented improved check in <strong>efficiency</strong> and increased bookings.</li>
-      <li>Impression rate of <strong>~3,400 with over 500 unique visitors and a click rate of 2.09%</strong> in the month of Sept.</li>
-    </ul>
+          <ul>
+            <li>Developed a <strong>social media content plan</strong> for optometry blogs and eye care health information.</li>
+            <li>SEO on Google is ranked consistently on the <strong>front page</strong> results with an avg. position 20.91.</li>
+            <li>Instagram / Facebook <strong>media growth</strong> in followers and social media events.</li>
+            <li>Google Analytics reported growth in almost <strong>29%</strong> activity in the past month.</li>
+            <li>Online appointment system scheduling implemented improved check in <strong>efficiency</strong> and increased bookings.</li>
+            <li>Impression rate of <strong>~3,400 with over 500 unique visitors and a click rate of 2.09%</strong> in the month of Sept.</li>
+          </ul>
 
 
-    
 
-    
 
-    
 
-    
 
-    
- 
-  
 
-    <Tabs />
-    </div>
+
+
+
+
+
+
+
+          <Tabs />
+        </div>
       </section>
     </div>
   </Layout>
- 
+
 
 
 )

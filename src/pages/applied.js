@@ -2,10 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Tabs from '../components/Tabs'
-import TMD from '../assets/images/TMD.jpg'
-import Comm from '../assets/images/Comm.jpg'
 
-const Generic = props => (
+const Applied = props => (
   <Layout>
     <Helmet>
       <title>Applied</title>
@@ -27,8 +25,9 @@ const Generic = props => (
           </span>
           <section class="overview">
             <p>
-              In my experience at Applied Medical, my team and I were on the applications design team and contributed toward various
-              enterprise applications across multiple mediums -- web, mobile, and desktop.
+              In my experience at Applied Medical, my team and I were on the
+              applications design team and contributed toward various enterprise
+              applications across multiple mediums -- web, mobile, and desktop.
             </p>
 
             <div className="grid-wrapper">
@@ -38,46 +37,25 @@ const Generic = props => (
               ></div>
             </div>
             <p>
+              <a href="/gdr">
+                General Document Routing - digital process to route signatures
+                and approvals, documents, and files for review. [ View Case
+                Study ]
+              </a>
+            </p>
+            <p>
               Team Member Development -- a web and mobile application for
               performance reviews, and goal tracking.
-              <img
-                src={TMD}
-                style={{
-                  marginBottom: '24px',
-                  boxShadow:
-                    '0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)',
-                  display: 'block',
-                  margin: 'auto',
-                  borderRadius: '8px',
-                  maxWidth: '100%',
-                  maxHeight: '60vh',
-                }}
-                alt=""
-              />
             </p>
             <p>
               Communication Center - a notification tool for important actions
               and notifications in the Applied Medical system.
-              <img
-              src={Comm}
-              style={{
-                marginBottom: '24px',
-                boxShadow:
-                  '0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)',
-                display: 'block',
-                margin: 'auto',
-                borderRadius: '8px',
-                maxWidth: '100%',
-                maxHeight: '50vh',
-              }}
-              alt=""
-              />
             </p>
-           
-         
 
-             <p>
-              Document Routing - paper to digital process to route approvals, documents, and files for review.
+            <p>
+              Applied Design System - collaborated with a team of designers and
+              developers to form a consistent UI guide between various Applied
+              application.
             </p>
             <p>
               myApplied - a central destination to access Applied team member
@@ -104,4 +82,4 @@ const Generic = props => (
   </Layout>
 )
 
-export default Generic
+export default Applied
