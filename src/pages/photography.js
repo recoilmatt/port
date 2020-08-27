@@ -6,7 +6,7 @@ import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
-import Banner from '../assets/images/Banner.jpg'
+import Banner from '../assets/images/banner.jpg'
 
 const roundedCorners = {
   display: 'block',
