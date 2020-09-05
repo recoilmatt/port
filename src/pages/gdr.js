@@ -31,7 +31,7 @@ const GDR = props => (
         <div className="inner">
           <div className="grid-wrapper">
             <div className="col-12">
-              <Zoom>
+              <Zoom wrapStyle={{ boxShadow: 'none' }}>
                 <img src={GDR1} style={roundedCorners} alt="" />
               </Zoom>
               <Zoom>
