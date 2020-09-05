@@ -6,7 +6,7 @@ import Goals from '../assets/images/Goals.png'
 import MacGlasses from '../assets/images/MacGlasses.png'
 import Palette from '../assets/images/Palette.png'
 import Feature from '../assets/images/Feature.png'
-import Overview from '../assets/images/Overview.png'
+import Feature2 from '../assets/images/Feature2.png'
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 
@@ -50,7 +50,7 @@ const Examwriter = props => (
           </Zoom>
           <Zoom>
             <span className="image main">
-              <img src={Overview} alt="glasses" />
+              <img src={Feature2} alt="glasses" />
             </span>
           </Zoom>
         </div>
