@@ -168,26 +168,24 @@ const Generic = props => (
             <p>
               <ul>
                 <br />
-                <li>Google Docs/Sheets</li> - strengths: manual data entry, real
-                time collaboration. sharing documents and itineraries.
-                <br />
-                -weakness: a general tool not customized to travel, no
-                suggestions, creating own templates.
-                <li>Google Trips</li> strengths: booking information from
-                emails, nearby things to do, reservations, offline mode
-                <br />
-                weakness: limited personalization, no events finding.
-                <li>Trip Advisor</li>- strengths: allows users to find
-                accomodations, food, and sights based on location. also has a
-                forum.
-                <br />
-                -weaknesses: cannot add to an intinerary, trust in sponsored
-                reviews?
+                <li>Google Docs/Sheets</li> The strengths lies in manual data
+                entry, real time collaboration, and the ability to share
+                documents. While it is free and general purpose, we have to
+                mention that its that's not customized to travel, with no
+                suggestions, and you need to create your own templates.
+                <li>Google Trips</li>Integration with your booking information
+                from emails, nearby things to do, reservations, offline mode.
+                However, weaknesses with limited personalization, no events
+                finding.
+                <li>TripAdvisor</li>- Allows users to find accomodations, food,
+                and sights based on location. Definitely for those travelers who
+                live off reviews because its the one of the popular travel
+                websites out there.
                 <li>WanderLog</li>
-                -strengths: free, guide and planning modes, sharing features,
-                map features
-                <br />
-                -weaknesses:
+                Main strength is within its collaboration with other users,
+                guide and planning modes, sharing features, map features, auto
+                import. However, it is not designed for travelers who like
+                pre-made itineraries.
               </ul>
             </p>
           </p>

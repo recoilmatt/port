@@ -5,6 +5,10 @@ import Tabs from '../components/Tabs'
 import GDR1 from '../assets/images/GDR1.png'
 import GDR2 from '../assets/images/GDR2.png'
 import GDR3 from '../assets/images/GDR3.png'
+import GDRDesignSystem from '../assets/images/GDRDesignSystem.png'
+import GDRMobile from '../assets/images/GDRMobile.png'
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 const roundedCorners = {
   display: 'block',
@@ -27,11 +31,26 @@ const GDR = props => (
         <div className="inner">
           <div className="grid-wrapper">
             <div className="col-12">
-              <img src={GDR1} style={roundedCorners} alt="" />
-              <img src={GDR2} style={roundedCorners} alt="" />
+              <Zoom>
+                <img src={GDR1} style={roundedCorners} alt="" />
+              </Zoom>
+              <Zoom>
+                <img src={GDR2} style={roundedCorners} alt="" />
+              </Zoom>
+            </div>
+
+            <div className="col-12">
+              <Zoom>
+                <img src={GDR3} style={{ width: '100%' }} alt="" />
+              </Zoom>
             </div>
             <div className="col-12">
-              <img src={GDR3} style={{ width: '100%' }} alt="" />
+              <Zoom>
+                <img src={GDRDesignSystem} style={{ width: '100%' }} alt="" />
+              </Zoom>
+              <Zoom>
+                <img src={GDRMobile} style={{ width: '100%' }} alt="" />
+              </Zoom>
             </div>
           </div>
         </div>

@@ -3,12 +3,14 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import tax from '../assets/images/tax.png'
 import shef from '../assets/images/shefmock.png'
+import TravelFinal from '../assets/images/TravelFinal.jpg'
+import health from '../assets/images/health.webm'
 import Tabs from '../components/Tabs'
 
-const Generic = props => (
+const Projects = props => (
   <Layout>
     <Helmet>
-      <title>Development Projects</title>
+      <title>Fun Projects</title>
       <meta name="description" content="Dev Projects" />
     </Helmet>
 
@@ -16,8 +18,16 @@ const Generic = props => (
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h1>Development Projects</h1>
+            <h1>Fun Projects</h1>
           </header>
+
+          <video width="100%" height="100%" autoPlay muted loop>
+            <source src={health} type="video/webm" />
+          </video>
+
+          <span className="image main">
+            <img src={TravelFinal} alt="Travel Final" />
+          </span>
 
           <span className="image main">
             <img src={tax} alt="kl associates" />
@@ -67,4 +77,4 @@ const Generic = props => (
   </Layout>
 )
 
-export default Generic
+export default Projects
