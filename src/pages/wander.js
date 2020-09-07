@@ -41,18 +41,20 @@ const Generic = props => (
           </h2>
           <p>
             New perspectives, different cultures, delicious food, and memorable
-            experiences. These are the reasons why taking the time to travel
-            refreshes and excites me. In the first sprint of my UI/UX design
-            course at UCI Extension, our class was tasked to solve a problem
-            encountered while traveling.
+            experiences. The feeling of wandering in an unfamilar place, getting
+            (somewhat) lost to finally find what you've been wanting to see for
+            the longest time. These are thoughts that run past a travelers'
+            minds each time they visit a new place. In my first sprint of my
+            UI/UX design course at UCI Extension, our class was tasked to solve
+            a problem encountered while traveling.
           </p>
 
           <p>
             In order to explore human centered design, we investigated what
             users wanted -- we gathered in groups and listed what were the
             current solutions, features, user problems, activities during
-            travel, etc., during a brainstorming session. My design goals was to
-            create a product that is intuitive, flexible, and beautiful.
+            travel, during a brainstorming session. My design goal was to create
+            a product that is simple, flexible, and beautiful.
           </p>
 
           <span className="image main">
@@ -65,7 +67,7 @@ const Generic = props => (
 
           <h2>Design Prompt</h2>
           <blockquote>
-            How can we improve the travel experience through an digital product?
+            How can we improve the travel experience through a digital product?
           </blockquote>
 
           <span className="image main">
@@ -83,15 +85,14 @@ const Generic = props => (
             </span>
           </h2>
           <p>
-            My initial research started off with posting a quick survey on a
-            travel group to gather what applications travelers used on for their
+            I started my initial research by surveying on a popular travel group
+            to gather what applications travelers currently use for their
             journey.
           </p>
           <p>
             Google Sheets / Docs - 177 <br />
             Google Maps - 78 <br />
-            Notepad - 27
-            <br />
+            Notepad - 27 <br />
             MS Word / Excel - 15 <br />
             I don't plan - 15 <br />
             Apple Notes - 4 <br />
@@ -168,24 +169,50 @@ const Generic = props => (
             <p>
               <ul>
                 <br />
-                <li>Google Docs/Sheets</li> The strengths lies in manual data
-                entry, real time collaboration, and the ability to share
-                documents. While it is free and general purpose, we have to
-                mention that its that's not customized to travel, with no
-                suggestions, and you need to create your own templates.
-                <li>Google Trips</li>Integration with your booking information
-                from emails, nearby things to do, reservations, offline mode.
-                However, weaknesses with limited personalization, no events
-                finding.
-                <li>TripAdvisor</li>- Allows users to find accomodations, food,
-                and sights based on location. Definitely for those travelers who
-                live off reviews because its the one of the popular travel
-                websites out there.
-                <li>WanderLog</li>
-                Main strength is within its collaboration with other users,
-                guide and planning modes, sharing features, map features, auto
-                import. However, it is not designed for travelers who like
-                pre-made itineraries.
+                <li>
+                  <strong>Google Docs/Sheets</strong>
+                  <br />
+                  The core strength lies in manual data entry, real time
+                  collaboration, and the ability to share documents. While it is
+                  free and general purpose, we have to mention that it is not
+                  customized to travel, with no suggestions, and you need to
+                  create your own templates.
+                </li>
+                <br />
+                <li>
+                  <strong>Google Trips</strong>
+                  <br />
+                  Integration with your booking information from emails, nearby
+                  things to do, reservations, offline mode. However, weaknesses
+                  with limited personalization, no events finding.
+                </li>
+                <br />
+                <li>
+                  <strong>TripAdvisor</strong>
+                  <br />
+                  Allows users to find accomodations, food, and sights based on
+                  location. Definitely for those travelers who live off reviews
+                  because its the one of the popular travel websites out there.
+                </li>
+                <br />
+                <li>
+                  <strong>TripIt</strong>
+                  <br />
+                  The interface was a bit dated and the user experience could be
+                  improved in finding what you wanted. It does contain
+                  everything if you are willing to place into every text field,
+                  but the integration and automation could put off users who do
+                  want to skip those steps.
+                </li>
+                <br />
+                <li>
+                  <strong>WanderLog</strong>
+                  <br />
+                  Main strength is within its collaboration with other users,
+                  guide and planning modes, sharing features, map features, auto
+                  import. However, it is not designed for travelers who like
+                  pre-made itineraries.
+                </li>
               </ul>
             </p>
           </p>
@@ -331,7 +358,7 @@ const Generic = props => (
           </p>
 
           <h2>
-            Hi-Fidelty and Interactions
+            Hi-Fi Mocks
             <span role="img" aria-label="persona">
               🎨
             </span>
@@ -374,7 +401,8 @@ const Generic = props => (
                   After creating a trip, the traveler begins to add travelmates
                   and events to the itinerary. The ability for multiple people
                   to interact at the same time allows collaboration when during
-                  the planning process.
+                  the planning process. The mobile interface allows wanderers to
+                  keep this itinerary on the go.
                 </p>
               </div>
             </div>
@@ -401,7 +429,7 @@ const Generic = props => (
             </div>
           </div>
 
-          {/*Trips*/}
+          {/*Info*/}
 
           <div className="grid-wrapper">
             <div className="col-6">
@@ -412,12 +440,10 @@ const Generic = props => (
               style={{ display: 'flex', alignItems: 'center' }}
             >
               <div>
-                <h3>Trips</h3>
+                <h3>Info</h3>
                 <p>
-                  After creating a trip, the traveler begins to add travelmates
-                  and events to the itinerary. The ability for multiple people
-                  to interact at the same time allows collaboration when during
-                  the planning process.
+                  Searching a destination displays the information and helpful
+                  tips and reviews from other wanderers.
                 </p>
               </div>
             </div>
@@ -435,10 +461,12 @@ const Generic = props => (
               alt=""
             />
           </span>
+          <p>Webapp</p>
 
           <video width="100%" height="100%" autoPlay muted loop>
             <source src={animation} type="video/webm" />
           </video>
+          <p>Interactions</p>
 
           <br />
           <h2>
@@ -449,9 +477,12 @@ const Generic = props => (
           </h2>
           <p>
             In this project, I was able to explore the ux process and how to
-            apply it when creating a digital project. In the future, I would
-            like to develop more my analytical ux skills, and visual design
-            skills.
+            apply it when creating a digital project. Because of the time
+            constraints of the course, I had the ability to do only a glimpse of
+            the ux research. I took further time after the course to improve my
+            technical skills with prototyping and visual design. In the future,
+            I would like to develop more my analytical ux skills, and visual
+            design skills.
           </p>
         </div>
       </section>

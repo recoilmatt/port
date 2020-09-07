@@ -32,7 +32,7 @@ const Generic = props => (
             </p>
             <p>
               My hobbies include photography, travel, and matcha related things.
-              I'm cooler on Instagram{' '}
+              I'm cooler on Instagram
               <a href="http://www.instagram.com/recoilmatt">@recoilmatt</a>
             </p>
           </div>
