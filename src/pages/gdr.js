@@ -5,6 +5,8 @@ import Tabs from '../components/Tabs'
 import GDR1 from '../assets/images/GDR1.png'
 import GDR2 from '../assets/images/GDR2.png'
 import GDR3 from '../assets/images/GDR3.png'
+import GDRProcess from '../assets/images/GDRProcess.png'
+import GDRHiFi from '../assets/images/GDRHiFi.png'
 import GDRDesignSystem from '../assets/images/GDRDesignSystem.png'
 import GDRMobile from '../assets/images/GDRMobile.png'
 import Zoom from 'react-medium-image-zoom'
@@ -42,6 +44,12 @@ const GDR = props => (
             <div className="col-12">
               <Zoom>
                 <img src={GDR3} style={{ width: '100%' }} alt="" />
+              </Zoom>
+              <Zoom>
+                <img src={GDRProcess} style={{ width: '100%' }} alt="" />
+              </Zoom>
+              <Zoom>
+                <img src={GDRHiFi} style={{ width: '100%' }} alt="" />
               </Zoom>
             </div>
             <div className="col-12">

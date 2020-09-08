@@ -9,7 +9,7 @@ import travel from '../assets/images/travel.jpg'
 import WanderFlow from '../assets/images/WanderFlow.png'
 import Detail from '../assets/images/Detail.png'
 import Wireframe from '../assets/images/Wireframe.jpeg'
-import Explore from '../assets/images/Explore.jpg'
+import Explore from '../assets/images/Explore.png'
 import Home from '../assets/images/Home.png'
 import NearMe from '../assets/images/NearMe.png'
 import Wander from '../assets/images/wander.png'
@@ -41,12 +41,12 @@ const Generic = props => (
           </h2>
           <p>
             New perspectives, different cultures, delicious food, and memorable
-            experiences. The feeling of wandering in an unfamilar place, getting
-            (somewhat) lost to finally find what you've been wanting to see for
-            the longest time. These are thoughts that run past a travelers'
-            minds each time they visit a new place. In my first sprint of my
-            UI/UX design course at UCI Extension, our class was tasked to solve
-            a problem encountered while traveling.
+            experiences. The feeling of wandering in an unfamiliar place,
+            getting (somewhat) lost to finally find what you've been wanting to
+            see for the longest time. These are thoughts that run past a
+            travelers' minds each time they visit a new place. In my first
+            sprint of my UI/UX design course at UCI Extension, our class was
+            tasked to solve a problem encountered while traveling.
           </p>
 
           <p>
@@ -86,7 +86,7 @@ const Generic = props => (
           </h2>
           <p>
             I started my initial research by surveying on a popular travel group
-            to gather what applications travelers currently use for their
+            to gather what apps travelers have been currently using for their
             journey.
           </p>
           <p>
@@ -126,8 +126,8 @@ const Generic = props => (
             Through my interviews, I encountered two types of personalities --
             users who are quite detailed oriented to the time and place, and
             travelers who prefer to go with the flow. These discussions led me
-            to pinpoint a couple of pain points that occurred commonly
-            throughout the travel journey.
+            to narrow down a few pain points that occurred commonly throughout
+            the travel journey.
           </p>
 
           <ul>
@@ -306,7 +306,7 @@ const Generic = props => (
             </ul>
           </p>
           <blockquote>
-            Users want that fine balance between <strong>flexibility</strong>,
+            Users want that balance between <strong>flexibility</strong>,
             <strong> reassurance</strong>, and <strong>discovery</strong> in
             their travel itinerary.
           </blockquote>
@@ -476,8 +476,8 @@ const Generic = props => (
             </span>
           </h2>
           <p>
-            In this project, I was able to explore the ux process and how to
-            apply it when creating a digital project. Because of the time
+            In this first project, I was able to explore the ux process and how
+            to apply it when creating a digital project. Because of the time
             constraints of the course, I had the ability to do only a glimpse of
             the ux research. I took further time after the course to improve my
             technical skills with prototyping and visual design. In the future,
