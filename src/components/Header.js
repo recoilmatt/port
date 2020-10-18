@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
 const Header = props => (
@@ -8,14 +7,10 @@ const Header = props => (
       <strong>matt lai | visual + ux</strong>
     </Link>
     <nav>
-      <a href="/photography">photography</a>
-      <a href="/contact">contact</a>
+      <Link to="/photography">photography</Link>
+      <Link to="/contact">contact</Link>
     </nav>
   </header>
 )
-
-Header.propTypes = {
-  onToggleMenu: PropTypes.func,
-}
 
 export default Header
