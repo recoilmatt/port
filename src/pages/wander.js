@@ -3,18 +3,17 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Tabs from '../components/Tabs'
 
-import wanderpersona from '../assets/images/wanderpersona.jpg'
-import travelbrainstorm from '../assets/images/travelbrainstorm.jpeg'
-import travel from '../assets/images/travel.jpg'
-import WanderFlow from '../assets/images/WanderFlow.png'
-import Detail from '../assets/images/Detail.png'
-import Wireframe from '../assets/images/Wireframe.jpeg'
-import Explore from '../assets/images/Explore.png'
-import Home from '../assets/images/Home.png'
-import NearMe from '../assets/images/NearMe.png'
-import Wander from '../assets/images/wander.png'
-import Info from '../assets/images/Info.png'
-import animation from '../assets/images/animation.webm'
+import wanderpersona from '../assets/images/wander/wanderpersona.jpg'
+import travelbrainstorm from '../assets/images/wander/travelbrainstorm.jpeg'
+import travel from '../assets/images/wander/travel.jpg'
+import WanderFlow from '../assets/images/wander/WanderFlow.png'
+import Detail from '../assets/images/wander/Detail.png'
+import Wireframe from '../assets/images/wander/Wireframe.jpeg'
+import Explore from '../assets/images/wander/Explore.png'
+import Home from '../assets/images/wander/Home.png'
+import NearMe from '../assets/images/wander/NearMe.png'
+import Wander from '../assets/images/wander/wander.png'
+import Info from '../assets/images/wander/Info.png'
 
 const Generic = props => (
   <Layout>
@@ -461,12 +460,6 @@ const Generic = props => (
               alt=""
             />
           </span>
-          <p>Webapp</p>
-
-          <video width="100%" height="100%" autoPlay muted loop>
-            <source src={animation} type="video/webm" />
-          </video>
-          <p>Interactions</p>
 
           <br />
           <h2>

@@ -2,8 +2,9 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Tabs from '../components/Tabs'
-import GDRVideo from '../assets/images/GDRVideo.png'
-import TMD from '../assets/images/TMD.jpg'
+import title from '../assets/images/gdr/Title.png'
+import filesharing from '../assets/images/Filesharing.png'
+import TMD from '../assets/images/TMD.png'
 import { Link } from 'gatsby'
 
 const Applied = props => (
@@ -35,34 +36,36 @@ const Applied = props => (
             </p>
 
             <div className="grid-wrapper">
-              <div className="col-6">
-                <img
-                  src={GDRVideo}
-                  alt="GDR Video"
-                  style={{ maxWidth: '100%', borderRadius: '8px' }}
-                ></img>
-                <p>
-                  <Link to="/gdr">
-                    General Document Routing - digital process to route
-                    signatures and approvals, documents, and files for review. [
-                    View Case Study ]
-                  </Link>
-                </p>
+              <div className="col-12">
+                <Link to="/gdr" style={{ borderBottom: 'none' }}>
+                  <img
+                    src={title}
+                    alt="GDR"
+                    style={{
+                      maxWidth: '100%',
+                      borderRadius: '8px',
+                    }}
+                  ></img>
+                </Link>
               </div>
 
-              <div className="col-6">
+              <div className="col-12">
                 <img
                   src={TMD}
                   alt="TMD"
-                  style={{ maxWidth: '90%', borderRadius: '8px' }}
+                  style={{ maxWidth: '100%', borderRadius: '8px' }}
                 ></img>
-                <p>
-                  Team Member Development -- a web and mobile application for
-                  performance reviews, and goal tracking.
-                </p>
               </div>
 
-              <div className="col-6">
+              <div className="col-12">
+                <img
+                  src={filesharing}
+                  alt="File Sharing"
+                  style={{ maxWidth: '100%', borderRadius: '8px' }}
+                ></img>
+              </div>
+
+              <div className="col-12">
                 <p>
                   Applied Design System - collaborated with a team of designers
                   and developers to form a consistent UI guide between various
@@ -70,17 +73,10 @@ const Applied = props => (
                 </p>
               </div>
 
-              <div className="col-6">
+              <div className="col-12">
                 <p>
                   myApplied - a central destination to access Applied team
                   member resources and applications.
-                </p>
-              </div>
-
-              <div className="col-6">
-                <p>
-                  To Do List - a tool for Office 365 integration with enterprise
-                  applications.
                 </p>
               </div>
             </div>

@@ -179,7 +179,7 @@ const Generic = props => (
               optometry blogs and eye care health information.
             </li>
             <li>
-              SEO on Google is ranked consistently on the
+              SEO on Google is ranked consistently on the{' '}
               <strong>front page</strong> results with an avg. position 20.91.
             </li>
             <li>

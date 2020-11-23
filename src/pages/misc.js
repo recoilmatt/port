@@ -1,11 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import anime from '../assets/images/anime.png'
-import shef from '../assets/images/shefmock.png'
-import travelfinal from '../assets/images/TravelFinal.jpg'
-import health from '../assets/images/health.webm'
-import arc from '../assets/images/arc.gif'
+import anime from '../assets/images/misc/anime.png'
+import shef from '../assets/images/misc/shefmock.png'
+import travelfinal from '../assets/images/wander/TravelFinal.jpg'
+
+import arc from '../assets/images/misc/arc.gif'
 import Tabs from '../components/Tabs'
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
@@ -13,7 +13,7 @@ import 'react-medium-image-zoom/dist/styles.css'
 const Projects = props => (
   <Layout>
     <Helmet>
-      <title>Fun Projects</title>
+      <title>Personal Projects</title>
       <meta name="description" content="Fun Projects" />
     </Helmet>
 
@@ -46,7 +46,7 @@ const Projects = props => (
                   <img
                     src={anime}
                     style={{
-                      maxHeight: '300px',
+                      maxHeight: '400px',
                       objectFit: 'cover',
                     }}
                     alt="anime watchlist"
