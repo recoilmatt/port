@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import anime from '../assets/images/misc/anime.png'
 import shef from '../assets/images/misc/shefmock.png'
 import travelfinal from '../assets/images/wander/TravelFinal.jpg'
+import shooz from '../assets/images/misc/Shooz.mp4'
 
 import arc from '../assets/images/misc/arc.gif'
 import Tabs from '../components/Tabs'
@@ -36,6 +37,15 @@ const Projects = props => (
                 <span className="image main">
                   <img src={travelfinal} alt="Travel Final" />
                 </span>
+              </Zoom>
+            </div>
+          </div>
+          <div className="grid-wrapper">
+            <div className="col-6">
+              <Zoom>
+                <video width="100%" height="100%" autoPlay loop muted>
+                  <source src={shooz} type="video/mp4" />
+                </video>
               </Zoom>
             </div>
           </div>

@@ -12,6 +12,7 @@ import process from '../assets/images/gdr/Process.png'
 import userflow from '../assets/images/gdr/UserFlow.png'
 import wireframe from '../assets/images/gdr/Wireframe.png'
 import solutions from '../assets/images/gdr/Solutions.png'
+import usability from '../assets/images/gdr/Usability.png'
 
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
@@ -60,6 +61,9 @@ const GDR = props => (
               </Zoom>
               <Zoom>
                 <img src={wireframe} style={roundedCorners} alt="" />
+              </Zoom>
+              <Zoom>
+                <img src={usability} style={roundedCorners} alt="" />
               </Zoom>
               <Zoom>
                 <img src={solutions} style={{ width: '100%' }} alt="" />
