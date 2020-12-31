@@ -2,8 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Tabs from '../components/Tabs'
-import gvomockup from '../assets/images/gvomockup.jpg'
-import golden from '../assets/images/golden.jpg'
+import gvomockup from '../assets/images/goldenvision/gvomockup.jpg'
+import golden from '../assets/images/goldenvision/golden.jpg'
 
 const Generic = props => (
   <Layout>
@@ -47,13 +47,14 @@ const Generic = props => (
           <h2>Research</h2>
 
           <p>
-            I asked patients about their eye appointment, and what could be done
-            to create a better patient experience. The discussions that I had
-            suggested that patients would like to be more connected digitally to
-            schedule and remind them of their annual eye appointments for an
-            overall smoother process. I was able to develop user personas for
-            the ideal individual who would be using the Golden Vision Optometry
-            website.
+            I casually asked patients about their recent eye appointment, and
+            what could be done to improve the patient experience. The
+            discussions suggested that more often younger patients (around
+            millienial to young families) would like to be more connected
+            digitally to schedule and reminding them of their annual eye
+            appointments for an overall smoother process. I was able to develop
+            user personas for the ideal individual who would be using the Golden
+            Vision Optometry website.
           </p>
           <p>
             The user needs that I’ve gathered are listed below:{' '}
@@ -63,7 +64,9 @@ const Generic = props => (
                 appointments
               </li>
               <li>Online booking appointments</li>
-              <li>Easier navigation to access information on website</li>
+              <li>
+                Easier navigation to access information and services on website
+              </li>
             </ul>
           </p>
           <h2>Site Audit</h2>
@@ -108,6 +111,8 @@ const Generic = props => (
             appointments.
             <br />+ Update clean and modern visuals branding to attract a
             diverse patient base and make the website more appealing.
+            <br />+ Add Chinese language translations for the patient base in
+            Irvine, California.
           </blockquote>
 
           <h2>Process</h2>
@@ -130,20 +135,22 @@ const Generic = props => (
               scroll down the page. Each section banner of the front page and
               individual page uses parallax display in order to emulate a one
               page flow while scrolling through the page, thus bringing
-              attention to important items and easier readability.
+              attention to{' '}
+              <strong>important items and easier readability</strong>.
             </p>
             <p>
-              I was able to subscribe to a third party software -- Demandforce
-              -- in order to implement an online scheduling and appointment
-              reminders that integrated with the OfficeMate EMR. This marketing
-              decision was approved and allowed business growth.
+              I was able to subscribe to a third party software - Demandforce -
+              in order to implement{' '}
+              <strong> online scheduling and appointment reminders</strong> that
+              integrated with the OfficeMate EMR. This marketing decision was
+              approved and allowed business growth.
             </p>
             <p>
-              I applied heatmapping concepts using Hotjar to find the placement
-              of the main CTA (request an appointment). Through my observations,
-              I found out that many users preferred the left and center of the
-              screen while scanning the screen as opposed to the right side of
-              the screen.
+              I applied <strong>heatmapping</strong> concepts using Hotjar to
+              find the placement of the main CTA (request an appointment).
+              Through my observations, I found out that many users preferred the
+              left and center of the screen while scanning the screen as opposed
+              to the right side of the screen.
             </p>
             <p>
               Some difficulties that I encountered during this project was media
@@ -152,10 +159,10 @@ const Generic = props => (
               after users informed me.
             </p>
             <p>
-              The blog carousel at the bottom the page had strong activity, and
-              allows the patients to read fun information about the practice, as
-              well as increase SEO visibility by creating new and informative
-              content.
+              The blog carousel at the bottom of the webpage had strong
+              activity, and allows the patients to read insightful and fun
+              information about the practice, as well as increase SEO visibility
+              by creating new and informative content.
             </p>
           </div>
           <h2>Analysis + Thoughts</h2>
@@ -163,13 +170,13 @@ const Generic = props => (
             This project was the first opportunity for me to demonstrate my
             design, digital marketing, and branding skills for a small business
             as I was starting my transition to ux/ui design. Working directly
-            with patients and doctors, I was able to gather research, create
-            marketing materials, and solve problems by design. I created a
-            website with a proper information architecture, allowing patients to
-            increase readability and finding important medical information and
-            increase the accessibility to schedule appointments online. In
-            future redesigns, I would improve on my front end development skills
-            and design different types of layouts for B2C.
+            with patients and doctors, I was able to directly gather research,
+            create marketing materials, and solve problems through design. I
+            created a website with a proper information architecture, allowing
+            patients to increase readability and finding important medical
+            information and increase the accessibility to schedule appointments
+            online. In future redesigns, I would improve on my front end
+            development skills and design different types of layouts for B2C.
           </p>
           <h2> Results </h2>
 
@@ -191,8 +198,8 @@ const Generic = props => (
               activity in the past month.
             </li>
             <li>
-              Online appointment system scheduling implemented improved check in{' '}
-              <strong>efficiency</strong> and increased bookings.
+              Online appointment system scheduling improved{' '}
+              <strong>check in efficiency</strong> and increased bookings.
             </li>
             <li>
               Impression rate of{' '}

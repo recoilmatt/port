@@ -14,7 +14,7 @@ const Generic = props => (
       <div className="inner">
         <header className="major">
           <h1>
-            I am a designer with a passion for intuitive product experiences.
+            I'm designer with a passion for intuitive product experiences.
             <span role="img" aria-label="art">
               🎨
             </span>
@@ -27,8 +27,14 @@ const Generic = props => (
               By integrating my experiences in biological sciences, healthcare,
               and digital marketing, I am able to apply my skills towards the
               design process in order to create meaningful digital products that
-              solve problems and improve usability. I'd like to expand my front
-              end development skills to become an UX Engineer in the future.
+              solve problems and improve usability supported by analytical data.
+              I am expanding my front end development skills to become an UX
+              Engineer in the future.
+            </p>
+            <p>
+              I'm proficient in Figma and Adobe Creative Suite -- with skills
+              for prototyping using tool such as Protopie. For development, I'm
+              currently learning the MERN stack.
             </p>
             <p>
               My hobbies include photography, travel, and matcha related things.
