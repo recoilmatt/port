@@ -61,8 +61,8 @@ class HomeIndex extends React.Component {
 
             <article style={{ backgroundColor: `black` }}>
               <header className="major">
-                <h3 style={{ color: `white` }}>Misc. Projects</h3>
-                <p style={{ color: `white` }}>Design | UI Development</p>
+                <h3 style={{ color: `white` }}>Personal Projects</h3>
+                <p style={{ color: `white` }}>Design | Web Development</p>
               </header>
               <Link to="/misc" className="link primary"></Link>
             </article>

@@ -14,7 +14,7 @@ const Generic = props => (
       <div className="inner">
         <header className="major">
           <h1>
-            I'm designer with a passion for intuitive product experiences.
+            I'm a designer with a passion for intuitive product experiences.
             <span role="img" aria-label="art">
               🎨
             </span>

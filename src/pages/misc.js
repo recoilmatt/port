@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import anime from '../assets/images/misc/anime.png'
-import shef from '../assets/images/misc/shefmock.png'
+import weather from '../assets/images/misc/weather.png'
 import travelfinal from '../assets/images/wander/TravelFinal.jpg'
 import hype from '../assets/images/misc/hype.png'
 import shooz from '../assets/images/misc/Shooz.mp4'
@@ -103,7 +103,7 @@ const Projects = props => (
             <div className="col-6">
               <Zoom>
                 <span className="image main">
-                  <img src={shef} alt="shef" />
+                  <img src={weather} alt="shef" />
                 </span>
               </Zoom>
               <section class="overview">
@@ -115,10 +115,10 @@ const Projects = props => (
                     alignItems: 'center',
                   }}
                 >
-                  <a href="https://github.com/recoilmatt/shef">
+                  <a href="https://github.com/recoilmatt/weather">
                     <div className="button">github</div>
                   </a>
-                  <a href="https://shef.netlify.app/">
+                  <a href="https://weathermatt.netlify.app/">
                     <div className="button">live</div>
                   </a>
                 </div>

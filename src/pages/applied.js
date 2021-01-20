@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import Tabs from '../components/Tabs'
 import title from '../assets/images/gdr/Title.png'
 import filesharing from '../assets/images/Filesharing.png'
+
 import TMD from '../assets/images/TMD.png'
 import { Link } from 'gatsby'
 
@@ -63,21 +64,6 @@ const Applied = props => (
                   alt="File Sharing"
                   style={{ maxWidth: '100%', borderRadius: '8px' }}
                 ></img>
-              </div>
-
-              <div className="col-12">
-                <p>
-                  Applied Design System - collaborated with a team of designers
-                  and developers to form a consistent UI guide between various
-                  Applied Medical
-                </p>
-              </div>
-
-              <div className="col-12">
-                <p>
-                  myApplied - a central destination to access Applied team
-                  member resources and applications.
-                </p>
               </div>
             </div>
           </section>
