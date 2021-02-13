@@ -1,0 +1,57 @@
+/* ---------------Products--------------- */
+
+.products-container {
+  padding-top: 3%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.products {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.products .card {
+  max-width: 370px;
+  width: 100%;
+  overflow: hidden;
+  height: 400px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 32px;
+  margin-bottom: 16px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
+  display: block;
+  object-fit: cover;
+  transition: all 1.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card img:hover {
+  scale: 1.05;
+}
+.card .box {
+  margin: 15px 0;
+  line-height: 1.5;
+}
+.card .box h3 {
+  text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.card .box p {
+  margin: 10px 0;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}

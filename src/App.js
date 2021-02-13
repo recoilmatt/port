@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+//Components
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
+//Pages
+import Home from "./pages/Home";
+import Menu from "./pages/Menu";
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import { AnimatePresence } from "framer-motion";
+//import { TransitionGroup, CSSTransition } from "react-transition-group";
+
+import DataProvider from "./components/DataProvider";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <DataProvider>
+      <div className="App">
+        <Router>
+          <Header />
+
+          <Route>
+            <Switch>
+              <Route exact path="/">
+                <Home />
+              </Route>
+              <Route exact path="/Menu">
+                <Menu />
+              </Route>
+            </Switch>
+          </Route>
+
+          <Footer />
+        </Router>
+      </div>
+    </DataProvider>
   );
 }
 
