@@ -13,6 +13,7 @@ class HomeIndex extends React.Component {
           meta={[
             { name: 'description', content: 'matt lai - ux/ui design' },
             { name: 'keywords', content: 'matt lai, design' },
+            { property: 'og:image', content: { MacGlasses } },
           ]}
         ></Helmet>
 

@@ -6,7 +6,6 @@ import Tabs from '../components/Tabs'
 import title from '../assets/images/gdr/Title.png'
 import problem from '../assets/images/gdr/Problem.png'
 import metrics from '../assets/images/gdr/Metrics.png'
-import painpoints from '../assets/images/gdr/PainPoints.png'
 import brainstorm from '../assets/images/gdr/Brainstorm.png'
 import process from '../assets/images/gdr/Process.png'
 import userflow from '../assets/images/gdr/UserFlow.png'
@@ -44,9 +43,6 @@ const GDR = props => (
               </Zoom>
               <Zoom>
                 <img src={problem} style={roundedCorners} alt="" />
-              </Zoom>
-              <Zoom>
-                <img src={painpoints} style={roundedCorners} alt="" />
               </Zoom>
               <Zoom>
                 <img src={metrics} style={roundedCorners} alt="" />
