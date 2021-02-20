@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
+import pf from '../assets/images/pf.jpg'
 
 class HomeIndex extends React.Component {
   render() {
@@ -13,7 +14,7 @@ class HomeIndex extends React.Component {
           meta={[
             { name: 'description', content: 'matt lai - ux/ui design' },
             { name: 'keywords', content: 'matt lai, design' },
-            { property: 'og:image', content: { MacGlasses } },
+            { property: 'og:image', content: { pf } },
           ]}
         ></Helmet>
 
