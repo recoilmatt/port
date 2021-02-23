@@ -12,6 +12,8 @@ import userflow from '../assets/images/gdr/UserFlow.png'
 import wireframe from '../assets/images/gdr/Wireframe.png'
 import solutions from '../assets/images/gdr/Solutions.png'
 import usability from '../assets/images/gdr/Usability.png'
+import components from '../assets/images/gdr/Components.png'
+import mobile from '../assets/images/gdr/Mobile.png'
 import takeaways from '../assets/images/gdr/Takeaways.png'
 
 import Zoom from 'react-medium-image-zoom'
@@ -59,11 +61,14 @@ const GDR = props => (
               <Zoom>
                 <img src={wireframe} style={roundedCorners} alt="" />
               </Zoom>
-              <Zoom>
-                <img src={usability} style={roundedCorners} alt="" />
-              </Zoom>
+
+              <img src={usability} style={{ width: '100%' }} alt="" />
+
+              <img src={components} style={{ width: '100%' }} alt="" />
 
               <img src={solutions} style={{ width: '100%' }} alt="" />
+
+              <img src={mobile} style={{ width: '100%' }} alt="" />
 
               <Zoom>
                 <img src={takeaways} style={roundedCorners} alt="" />
