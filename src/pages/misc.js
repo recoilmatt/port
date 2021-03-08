@@ -16,7 +16,7 @@ const Projects = props => (
   <Layout>
     <Helmet>
       <title>Personal Projects</title>
-      <meta name="description" content="Fun Projects" />
+      <meta name="description" content="Personal Projects" />
     </Helmet>
 
     <div id="main" className="alt">
@@ -82,6 +82,13 @@ const Projects = props => (
                 </span>
               </Zoom>
               <section class="overview">
+                <div>
+                  <h4>myAnimeList</h4>
+                </div>
+                <div>
+                  A web app created with React that uses Jikan anime api to
+                  fetch top animes and also adds to a watchlist in localStorage.
+                </div>
                 <div
                   className="col-12"
                   style={{
@@ -107,6 +114,13 @@ const Projects = props => (
                 </span>
               </Zoom>
               <section class="overview">
+                <div>
+                  <h4>Weather Finder</h4>
+                </div>
+                <div>
+                  React web app using OpenWeatherAPI to find current location
+                  and show weather using city name.
+                </div>
                 <div
                   className="col-12"
                   style={{

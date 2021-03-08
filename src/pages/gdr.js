@@ -7,6 +7,7 @@ import title from '../assets/images/gdr/Title.png'
 import problem from '../assets/images/gdr/Problem.png'
 import metrics from '../assets/images/gdr/Metrics.png'
 import brainstorm from '../assets/images/gdr/Brainstorm.png'
+import overview from '../assets/images/gdr/Overview.png'
 import process from '../assets/images/gdr/Process.png'
 import userflow from '../assets/images/gdr/UserFlow.png'
 import wireframe from '../assets/images/gdr/Wireframe.png'
@@ -42,6 +43,9 @@ const GDR = props => (
             <div className="col-12">
               <Zoom wrapStyle={{ width: '100' }}>
                 <img src={title} style={roundedCorners} alt="" />
+              </Zoom>
+              <Zoom>
+                <img src={overview} style={roundedCorners} alt="" />
               </Zoom>
               <Zoom>
                 <img src={problem} style={roundedCorners} alt="" />

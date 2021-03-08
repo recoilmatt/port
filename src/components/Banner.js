@@ -13,9 +13,9 @@ const Banner = props => (
       </header>
       <div className="content">
         <p>
-          i love good design + interactions + usability
+          i love good design + interactions + usability.
           <br />
-          i'm currently learning web development
+          i'm currently learning web development.
         </p>
       </div>
     </div>
