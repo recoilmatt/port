@@ -38,13 +38,14 @@ class HomeIndex extends React.Component {
               <Link to="/wander" className="link primary"></Link>
             </article>
 
-            <article style={{ backgroundColor: `gray` }}>
+            <article style={{ backgroundColor: `#102549` }}>
               <header className="major">
-                <h3>Epinex Diagnostics</h3>
-                <p>Digital Marketing</p>
+                <h3 style={{ color: `white` }}>ExamWriter Optometry EHR</h3>
+                <p style={{ color: `white` }}>UI Redesign Concept</p>
               </header>
-              <Link to="/epinex" className="link primary"></Link>
+              <Link to="/examwriter" className="link primary"></Link>
             </article>
+
             <article style={{ backgroundColor: `goldenrod` }}>
               <header className="major">
                 <h3>Golden Vision Optometry</h3>
@@ -53,12 +54,12 @@ class HomeIndex extends React.Component {
               <Link to="/golden" className="link primary"></Link>
             </article>
 
-            <article style={{ backgroundColor: `#102549` }}>
+            <article style={{ backgroundColor: `#696969` }}>
               <header className="major">
-                <h3 style={{ color: `white` }}>ExamWriter Optometry EHR</h3>
-                <p style={{ color: `white` }}>UI Design | Redesign Concept</p>
+                <h3 style={{ color: '#333' }}>Cafe Latte</h3>
+                <p>Web Development | UI Design </p>
               </header>
-              <Link to="/examwriter" className="link primary"></Link>
+              <Link to="/cafe" className="link primary"></Link>
             </article>
 
             <article style={{ backgroundColor: `black` }}>

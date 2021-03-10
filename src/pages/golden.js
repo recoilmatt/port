@@ -104,15 +104,18 @@ const Generic = props => (
           </p>
           <h2>Goals</h2>
           <blockquote>
-            + Improve Usability - a website for mobile and desktop will allow
-            users to find office and medical information more efficiently.
+            <strong>+</strong> Improve overall usability and information
+            architecture - a website for mobile and desktop will allow users to
+            find information more efficiently.
             <br />
-            + Increase click through rates on call to actions for booking
-            appointments.
-            <br />+ Update clean and modern visuals branding to attract a
-            diverse patient base and make the website more appealing.
-            <br />+ Add Chinese language translations for the patient base in
-            Irvine, California.
+            <strong>+</strong> Increase click through rates on call to actions
+            for booking online appointments.
+            <br />
+            <strong>+</strong> Update clean and modern visuals and branding to
+            attract a diverse patient base and make the website more appealing.
+            <br />
+            <strong>+</strong> Add Chinese language translations for the patient
+            base in Irvine, California.
           </blockquote>
 
           <h2>Process</h2>
