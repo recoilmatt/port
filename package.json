@@ -1,9 +1,10 @@
 {
   "name": "gatsby-starter-forty-v2",
-  "description": "Gatsby Starter - Forty V2",
+  "description": "Portfolio",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Matt",
   "dependencies": {
+    "core-js": "^3.9.1",
     "gatsby": "^2.15.14",
     "gatsby-plugin-manifest": "^2.2.16",
     "gatsby-plugin-offline": "^3.0.6",
@@ -11,6 +12,7 @@
     "gatsby-plugin-sass": "^2.1.14",
     "node-sass": "^4.12.0",
     "react": "^16.9.0",
+    "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
     "react-medium-image-zoom": "^4.3.1",
