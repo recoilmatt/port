@@ -4,8 +4,9 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
-    "core-js": "^3.6.5",
+    "core-js": "^3.9.1",
     "gatsby": "^3.0.4",
+    "gatsby-cli": "^3.0.0",
     "gatsby-plugin-google-gtag": "^3.0.0",
     "gatsby-plugin-manifest": "^3.0.0",
     "gatsby-plugin-offline": "^4.0.0",
