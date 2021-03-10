@@ -7,7 +7,7 @@ const NotFoundPage = () => (
       <section id="one">
         <div className="inner">
           <h1>NOT FOUND!</h1>
-          <p>Oops this doesn't exist ahhh lol.</p>
+          <p>Oops this doesn't exist ahhhnpm lol.</p>
         </div>
       </section>
     </div>
