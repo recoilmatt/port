@@ -4,21 +4,28 @@ module.exports = {
     author: 'Matt Lai',
     description: 'UX Design',
   },
+
   plugins: [
-    'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
-        start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
-        display: 'minimal-ui',
-        icon: 'src/assets/images/icon.png', // This path is relative to the root of the site.
+        trackingIds: [
+          'G-BHZHN0WQ9F', // Google Analytics / GA
+        ],
+        gtagConfig: {
+          optimize_id: 'OPT_CONTAINER_ID',
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+
+        pluginConfig: {
+          head: false,
+
+          respectDNT: true,
+
+          exclude: ['/preview/**', '/do-not-track/me/too/'],
+        },
       },
     },
-    'gatsby-plugin-sass',
-    'gatsby-plugin-offline',
   ],
 }
