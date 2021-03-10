@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "chokidar": "^3.5.1",
     "core-js": "^3.9.1",
     "gatsby": "^3.0.4",
     "gatsby-cli": "^3.0.0",
