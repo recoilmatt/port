@@ -16,6 +16,9 @@ import usability from '../assets/images/gdr/Usability.png'
 import components from '../assets/images/gdr/Components.png'
 import mobile from '../assets/images/gdr/Mobile.png'
 import takeaways from '../assets/images/gdr/Takeaways.png'
+import persona from '../assets/images/gdr/Persona.png'
+import well from '../assets/images/gdr/Well.png'
+import improvement from '../assets/images/gdr/Improvement.png'
 
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
@@ -57,6 +60,9 @@ const GDR = props => (
                 <img src={process} style={roundedCorners} alt="" />
               </Zoom>
               <Zoom>
+                <img src={persona} style={roundedCorners} alt="" />
+              </Zoom>
+              <Zoom>
                 <img src={brainstorm} style={roundedCorners} alt="" />
               </Zoom>
               <Zoom>
@@ -67,6 +73,8 @@ const GDR = props => (
               </Zoom>
 
               <img src={usability} style={{ width: '100%' }} alt="" />
+              <img src={well} style={{ width: '100%' }} alt="" />
+              <img src={improvement} style={{ width: '100%' }} alt="" />
 
               <img src={components} style={{ width: '100%' }} alt="" />
 
