@@ -3,9 +3,8 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Tabs from '../components/Tabs'
 import title from '../assets/images/gdr/Title.png'
-import filesharing from '../assets/images/Filesharing.png'
+import pcf from '../assets/images/pcf/pcf.png'
 
-import TMD from '../assets/images/TMD.png'
 import { Link } from 'gatsby'
 
 const Applied = props => (
@@ -51,19 +50,13 @@ const Applied = props => (
               </div>
 
               <div className="col-12">
-                <img
-                  src={TMD}
-                  alt="TMD"
-                  style={{ maxWidth: '100%', borderRadius: '8px' }}
-                ></img>
-              </div>
-
-              <div className="col-12">
-                <img
-                  src={filesharing}
-                  alt="File Sharing"
-                  style={{ maxWidth: '100%', borderRadius: '8px' }}
-                ></img>
+                <Link to="/pcf" style={{ borderBottom: 'none' }}>
+                  <img
+                    src={pcf}
+                    alt="pcf intro"
+                    style={{ maxWidth: '100%', borderRadius: '8px' }}
+                  ></img>
+                </Link>
               </div>
             </div>
           </section>

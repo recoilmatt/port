@@ -21,17 +21,16 @@ const Generic = props => (
       <title>Wander</title>
       <meta name="description" content="Wander Travel Concept" />
     </Helmet>
-
+    <span className="image main">
+      <img
+        src={Wander}
+        style={{ animation: 'animate 1.4s ease-in-out', objectFit: 'cover' }}
+        alt=""
+      />
+    </span>
     <div id="main" className="alt">
       <section id="one">
         <div className="inner">
-          <header className="major">
-            <h1>Wander [Travel Design Project]</h1>
-          </header>
-          <span className="image main">
-            <img src={Wander} style={{ objectFit: 'cover' }} alt="" />
-          </span>
-
           <h2>
             Introduction
             <span role="img" aria-label="intro">
@@ -61,7 +60,7 @@ const Generic = props => (
           <span className="image main">
             <img
               src={travelbrainstorm}
-              style={{ height: '350px', objectFit: 'cover' }}
+              style={{ height: '250px', objectFit: 'cover' }}
               alt=""
             />
           </span>
@@ -70,15 +69,15 @@ const Generic = props => (
           <blockquote>
             How can we improve the travel experience through a digital product?
           </blockquote>
-
-          <span className="image main">
-            <img
-              src={travel}
-              style={{ height: '150px', objectFit: 'cover' }}
-              alt=""
-            />
-          </span>
-
+        </div>
+        <span className="image main">
+          <img
+            src={travel}
+            style={{ height: '300px', objectFit: 'cover' }}
+            alt=""
+          />
+        </span>
+        <div className="inner">
           <h2>
             Discovery + Research
             <span role="img" aria-label="survey">
@@ -245,21 +244,13 @@ const Generic = props => (
           <p>
             After collaborating with my user interviews, I crafted a user
             persona -- Jennifer -- the ideal Wanderer.
-            <div className="col-12">
-              <span className="image main"></span>
-              <img
-                src={wanderpersona}
-                style={{
-                  display: 'block',
-                  borderRadius: '8px',
-                  maxHeight: '100%',
-                  width: '100%',
-                }}
-                alt=""
-              />
-            </div>
           </p>
+        </div>
+        <span className="image main">
+          <img src={wanderpersona} style={{ objectFit: 'cover' }} alt="" />
+        </span>
 
+        <div className="inner">
           <h2>
             Wireframing &nbsp;
             <span role="img" aria-label="wireframing">
@@ -449,19 +440,20 @@ const Generic = props => (
               </div>
             </div>
           </div>
-
-          <span className="image main">
-            <img
-              style={{
-                maxWidth: '100%',
-                borderRadius: '8px',
-                boxShadow:
-                  '0 5px 10px rgba(154,160,185,.25), 0 15px 40px rgba(166,173,201,.2)',
-              }}
-              src={Detail}
-              alt=""
-            />
-          </span>
+        </div>
+        <span className="image main">
+          <img
+            style={{
+              maxWidth: '100%',
+              borderRadius: '8px',
+              boxShadow:
+                '0 5px 10px rgba(154,160,185,.25), 0 15px 40px rgba(166,173,201,.2)',
+            }}
+            src={Detail}
+            alt=""
+          />
+        </span>
+        <div class="inner">
           <h2>
             Validation
             <span role="img" aria-label="check">
