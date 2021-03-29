@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Tabs from '../components/Tabs'
 import title from '../assets/images/gdr/Title.png'
-import pcf from '../assets/images/pcf/pcf.png'
+import pcf from '../assets/images/pcf/PCF.png'
 
 import { Link } from 'gatsby'
 

@@ -7,8 +7,8 @@ import 'react-medium-image-zoom/dist/styles.css'
 
 //Images
 
-import pcf2 from '../assets/images/pcf/pcf2.png'
-import pcf3 from '../assets/images/pcf/pcf3.png'
+import pcf2 from '../assets/images/pcf/PCF2.png'
+import pcf3 from '../assets/images/pcf/PCF3.png'
 import img000 from '../assets/images/pcf/000.png'
 import img001 from '../assets/images/pcf/001.png'
 import img002 from '../assets/images/pcf/002.png'
