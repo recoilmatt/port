@@ -13,11 +13,13 @@ class HomeIndex extends React.Component {
           title="matt lai | design"
           meta={[
             { name: 'description', content: 'matt lai - ux/ui design' },
-            { name: 'keywords', content: 'matt lai, design' },
-            { property: 'og:image', content: `${pf}` },
+            { name: 'keywords', content: 'matt lai, designer, ux, ui' },
           ]}
         >
-          <meta property="og:image" content={`${pf}`} />
+          <meta
+            property="og:image"
+            content="https://mattlai.com/static/pf-1607463efd53c9bf925bc591cdfe5cfe.jpg"
+          />
         </Helmet>
 
         <Banner />
