@@ -5,6 +5,7 @@ module.exports = {
     description: 'UX Design',
   },
   plugins: [
+    'gatsby-plugin-open-graph-images',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
