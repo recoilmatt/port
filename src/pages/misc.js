@@ -1,8 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import anime from '../assets/images/misc/anime.png'
-import weather from '../assets/images/misc/weather.png'
+
 import travelfinal from '../assets/images/wander/TravelFinal.jpg'
 import hype from '../assets/images/misc/hype.png'
 import shooz from '../assets/images/misc/Shooz.mp4'
@@ -15,7 +14,7 @@ import 'react-medium-image-zoom/dist/styles.css'
 const Projects = props => (
   <Layout>
     <Helmet>
-      <title>Personal Projects</title>
+      <title>Personal Design Projects</title>
       <meta name="description" content="Personal Projects" />
     </Helmet>
 
@@ -23,42 +22,11 @@ const Projects = props => (
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h1>Personal Projects</h1>
+            <h1>Personal Designs</h1>
           </header>
-          <div className="grid-wrapper">
-            <div className="col-6">
-              <Zoom>
-                <span className="image main">
-                  <img src={arc} alt="Arc" />
-                </span>
-              </Zoom>
-            </div>
-            <div className="col-6">
-              <Zoom>
-                <span className="image main">
-                  <img src={travelfinal} alt="Travel Final" />
-                </span>
-              </Zoom>
-            </div>
-          </div>
-          <div className="grid-wrapper">
-            <div className="col-6">
-              <Zoom>
-                <span>
-                  <img
-                    src={hype}
-                    style={{
-                      width: '100%',
-                      maxHeight: '350px',
-                      objectFit: 'cover',
-                    }}
-                    alt="Travel Final"
-                  />
-                </span>
-              </Zoom>
-            </div>
 
-            <div className="col-6">
+          <div className="grid-wrapper">
+            <div className="col-12">
               <Zoom>
                 <video width="100%" height="100%" autoPlay loop muted>
                   <source src={shooz} type="video/mp4" />
@@ -72,71 +40,42 @@ const Projects = props => (
               <Zoom>
                 <span className="image main">
                   <img
-                    src={anime}
+                    src={arc}
                     style={{
-                      maxHeight: '400px',
+                      width: '100%',
+                      maxHeight: '350px',
                       objectFit: 'cover',
                     }}
-                    alt="anime watchlist"
+                    alt="Arc"
                   />
                 </span>
               </Zoom>
-              <section class="overview">
-                <div>
-                  <h4>myAnimeList</h4>
-                </div>
-                <div>
-                  A web app created with React that uses Jikan anime api to
-                  fetch top animes and also adds to a watchlist in localStorage.
-                </div>
-                <div
-                  className="col-12"
-                  style={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                  }}
-                >
-                  <a href="https://github.com/recoilmatt/animewatchlist">
-                    <div className="button">github</div>
-                  </a>
-                  <a href="https://anime-watchlist.netlify.app/">
-                    <div className="button">live</div>
-                  </a>
-                </div>
-              </section>
             </div>
 
             <div className="col-6">
               <Zoom>
                 <span className="image main">
-                  <img src={weather} alt="shef" />
+                  <img
+                    src={hype}
+                    style={{
+                      width: '100%',
+                      maxHeight: '350px',
+                      objectFit: 'cover',
+                    }}
+                    alt="Travel Final"
+                  />
                 </span>
               </Zoom>
-              <section class="overview">
-                <div>
-                  <h4>Weather Finder</h4>
-                </div>
-                <div>
-                  React web app using OpenWeatherAPI to find current location
-                  and show weather using city name.
-                </div>
-                <div
-                  className="col-12"
-                  style={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                  }}
-                >
-                  <a href="https://github.com/recoilmatt/weather">
-                    <div className="button">github</div>
-                  </a>
-                  <a href="https://weathermatt.netlify.app/">
-                    <div className="button">live</div>
-                  </a>
-                </div>
-              </section>
+            </div>
+          </div>
+
+          <div className="grid-wrapper">
+            <div className="col-12">
+              <Zoom>
+                <span className="image main">
+                  <img src={travelfinal} alt="Travel Final" />
+                </span>
+              </Zoom>
             </div>
           </div>
         </div>

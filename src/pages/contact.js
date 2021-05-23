@@ -13,28 +13,28 @@ const Generic = props => (
     <section id="banner" className="major">
       <div className="inner">
         <header className="major">
-          <h1>
-            I'm a designer with a passion for intuitive product experiences.
+          <h2>
+            I'm a designer with a passion for intuitive product experiences
             <span role="img" aria-label="art">
               🎨
             </span>
-          </h1>
+          </h2>
         </header>
 
         <div className="grid-wrapper">
           <div className="col-6">
             <p>
-              By integrating my experiences in biological sciences, healthcare,
-              and digital marketing, I am able to apply my skills towards the
-              design process in order to create meaningful digital products that
-              solve problems and improve usability supported by analytical data.
-              I am expanding my front end development skills to become an UX
-              Engineer in the future.
+              Integrating my experiences in biological sciences, healthcare, and
+              digital marketing, I am able to apply my skills towards the design
+              process to create meaningful digital products that solve problems
+              supported by analytical data. I am expanding my front end
+              development skills to become an UX Engineer in the future.
             </p>
             <p>
-              I'm proficient in Figma and Adobe Creative Suite -- with skills
-              for prototyping using tool such as Protopie. For development, I'm
-              currently learning the MERN stack.
+              My tools are Figma and Adobe Creative Suite -- with skills for
+              prototyping such as Protopie. For development, I'm currently
+              learning the MERN stack with an interest in creating design
+              systems.
             </p>
             <p>
               My hobbies include photography, travel, and matcha related things.

@@ -26,7 +26,7 @@ class HomeIndex extends React.Component {
 
         <div id="main">
           <section id="one" className="tiles">
-            <article style={{ backgroundColor: `teal` }}>
+            <article style={{ backgroundColor: `#007983` }}>
               <header className="major">
                 <h3 style={{ color: `white` }}>Applied Medical</h3>
                 <p style={{ color: `white` }}>UX Design | UI Design</p>
@@ -44,7 +44,7 @@ class HomeIndex extends React.Component {
 
             <article style={{ backgroundColor: `#102549` }}>
               <header className="major">
-                <h3 style={{ color: `white` }}>ExamWriter Optometry EHR</h3>
+                <h3 style={{ color: `white` }}>ExamWriter EHR</h3>
                 <p style={{ color: `white` }}>UI Redesign Concept</p>
               </header>
               <Link to="/examwriter" className="link primary"></Link>
@@ -60,16 +60,16 @@ class HomeIndex extends React.Component {
 
             <article style={{ backgroundColor: `#696969` }}>
               <header className="major">
-                <h3 style={{ color: '#333' }}>Cafe Latte</h3>
-                <p>Web Development | UI Design </p>
+                <h3 style={{ color: '#333' }}>Web Development</h3>
+                <p style={{ color: `#333` }}>Personal Dev Projects</p>
               </header>
-              <Link to="/cafe" className="link primary"></Link>
+              <Link to="/development" className="link primary"></Link>
             </article>
 
             <article style={{ backgroundColor: `black` }}>
               <header className="major">
-                <h3 style={{ color: `white` }}>Personal Projects</h3>
-                <p style={{ color: `white` }}>Design | Web Development</p>
+                <h3 style={{ color: `white` }}>Personal Designs</h3>
+                <p style={{ color: `white` }}>Design Projects</p>
               </header>
               <Link to="/misc" className="link primary"></Link>
             </article>
