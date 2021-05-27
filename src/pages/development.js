@@ -108,37 +108,6 @@ const Development = props => (
               </div>
             </section>
           </section>
-
-          <Zoom>
-            <span className="image main">
-              <img src={weather} alt="shef" />
-            </span>
-          </Zoom>
-          <section class="overview">
-            <div>
-              <h4>Weather Finder</h4>
-            </div>
-            <div>
-              React web app using OpenWeatherAPI to find current location and
-              show weather using city name.
-            </div>
-            <div
-              className="col-12"
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                marginBottom: '5%',
-              }}
-            >
-              <a href="https://github.com/recoilmatt/weather">
-                <div className="button">github</div>
-              </a>
-              <a href="https://weathermatt.netlify.app/">
-                <div className="button">live</div>
-              </a>
-            </div>
-          </section>
         </div>
       </section>
     </div>
