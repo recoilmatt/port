@@ -5,6 +5,7 @@ import Tabs from '../components/Tabs'
 
 //Images
 import title from '../assets/images/gdr/Title.png'
+import img0 from '../assets/images/gdr/000.png'
 import img1 from '../assets/images/gdr/001.png'
 import img2 from '../assets/images/gdr/002.png'
 import img3 from '../assets/images/gdr/003.png'
@@ -39,7 +40,7 @@ const GDR = props => (
             <div className="col-12">
               <Zoom>
                 <span className="image main">
-                  <img src={title}></img>
+                  <img src={img0}></img>
                 </span>
               </Zoom>
               <Zoom>

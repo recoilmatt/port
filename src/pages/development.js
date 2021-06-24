@@ -3,10 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 //Images
 import home from '../assets/images/cafe/home.jpg'
-import locations from '../assets/images/cafe/locations.jpg'
-import products from '../assets/images/cafe/products.jpg'
 import anime from '../assets/images/misc/anime.png'
-import weather from '../assets/images/misc/weather.png'
 
 import Tabs from '../components/Tabs'
 import Zoom from 'react-medium-image-zoom'

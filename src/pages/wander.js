@@ -24,8 +24,13 @@ const Generic = props => (
     <span className="image main">
       <img
         src={Wander}
-        style={{ animation: 'animate 1.4s ease-in-out', objectFit: 'cover' }}
-        alt=""
+        style={{
+          animation: 'animate 1.4s ease-in-out',
+          width: '100%',
+          margin: '0',
+          objectFit: 'none',
+        }}
+        alt="wander opening"
       />
     </span>
     <div id="main" className="alt">

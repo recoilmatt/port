@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Tabs from '../components/Tabs'
 import title from '../assets/images/gdr/Title.png'
-import pcf from '../assets/images/pcf/PCF.png'
+import pcf1 from '../assets/images/pcf/pcf1.png'
 
 import { Link } from 'gatsby'
 
@@ -37,6 +37,11 @@ const Applied = props => (
 
             <div className="grid-wrapper">
               <div className="col-12">
+                <h1 style={{ margin: 0 }}>General Document Routing</h1>
+                <p>
+                  Internal tool to route important documents for electronic
+                  approval and signatures.
+                </p>
                 <Link to="/gdr" style={{ borderBottom: 'none' }}>
                   <img
                     src={title}
@@ -50,9 +55,14 @@ const Applied = props => (
               </div>
 
               <div className="col-12">
+                <h1 style={{ margin: 0 }}>Product Complaint Form</h1>
+                <p>
+                  Responsive web application for Field Team members to report
+                  issues regard medical device products.
+                </p>
                 <Link to="/pcf" style={{ borderBottom: 'none' }}>
                   <img
-                    src={pcf}
+                    src={pcf1}
                     alt="pcf intro"
                     style={{ maxWidth: '100%', borderRadius: '8px' }}
                   ></img>

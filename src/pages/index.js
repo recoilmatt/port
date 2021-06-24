@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
-import pf from '../assets/images/pf.jpg'
 
 class HomeIndex extends React.Component {
   render() {

@@ -14,14 +14,11 @@ import user3 from '../assets/images/pcf/user3.svg'
 import user4 from '../assets/images/pcf/user4.svg'
 import user5 from '../assets/images/pcf/user5.svg'
 import user6 from '../assets/images/pcf/user6.svg'
+import pcf1 from '../assets/images/pcf/pcf1.png'
 import pcf2 from '../assets/images/pcf/PCF2.png'
 import pcf3 from '../assets/images/pcf/PCF3.png'
-import img000 from '../assets/images/pcf/000.png'
-import img001 from '../assets/images/pcf/001.png'
-import img002 from '../assets/images/pcf/002.png'
-import img003 from '../assets/images/pcf/003.png'
-import img004 from '../assets/images/pcf/004.png'
-import img005 from '../assets/images/pcf/005.png'
+import iterations from '../assets/images/pcf/iterations.png'
+import solutions from '../assets/images/pcf/solutions.png'
 import img008 from '../assets/images/pcf/008.png'
 import img009 from '../assets/images/pcf/009.png'
 
@@ -50,10 +47,12 @@ const PCF = props => (
 
     <span>
       <img
-        src={pcf2}
+        src={pcf1}
         style={{
           animation: 'animate 1.4s ease-in-out',
-          objectFit: 'cover',
+          width: '100%',
+          height: '60vh',
+          objectFit: 'none',
           marginBottom: '0',
         }}
         alt=""
@@ -63,21 +62,20 @@ const PCF = props => (
       <div className="inner">
         <h1 style={{ marginBottom: 0 }}>Product Complaint Form</h1>
         <span>
-          Product Designer • UI / UX / Prototyping • Q1-Q2 2021 • Full Case
+          Product Designer / Research / Prototyping • Q1-Q2 2021 • Full Case
           Study Upon Request
         </span>
       </div>
       <section id="one">
         <div className="inner">
           <h2>Summary</h2>
-          The Product Complaint Form (Form-067), previously referred to as a
-          Customer Experience Report or CER, is used by a Team Member or
-          Customer to inform the Applied Medical Regulatory Affairs
-          (RA)/Customer Satisfaction (CS) team about complaints regarding
-          Applied Medical products. In order to increase workflow and improve
-          efficiency, this form is to be updated to add and edit fields so that
-          the team can get better information to process regarding each
-          complaint.
+          The <strong>Product Complaint Form (Form-067)</strong>, previously
+          referred to as a Customer Experience Report, is used by a Team Member
+          or Customer to inform the Applied Medical Regulatory Affairs (RA) /
+          Customer Satisfaction (CS) team about complaints regarding Applied
+          Medical surgical products. In order to improve efficiency, this form
+          is to be updated to add and edit fields so that the teams can get
+          better information to process complaints.
         </div>
         <div className="inner">
           <h2>The Problem</h2>
@@ -91,13 +89,14 @@ const PCF = props => (
 
         <div className="inner">
           <h2>Business Goals</h2>
-          The future process remains the same for the PDF version of this form.
-          However, due to the iBPM application beginning to phase of out
-          development, a new mobile form will have to be created in order for
-          team members to fill out the form on mobile devices. To account for
-          this, an interactive web form will be created in the myApplied portal
-          so that team members can log into their devices and fill out the form
-          electronically.
+          The business identified the need to{' '}
+          <strong>update the form questions</strong> for more{' '}
+          <strong>detailed reporting and documentation.</strong> However, a
+          previous iPad application that the team was using (iBPM) is no longer
+          maintained by the developers. To account for this, an interactive web
+          form will be created in the myApplied portal so that the{' '}
+          <strong>Field team members </strong> can log into their mobile devices
+          and fill out the form electronically while in the hospital.
         </div>
 
         <div className="inner">
@@ -105,7 +104,7 @@ const PCF = props => (
           <div className="grid-wrapper">
             <div className="col-4">
               <p style={center}>
-                <img src={user1} />
+                <img src={user1} alt="user1" />
               </p>
               <span style={{ fontWeight: '600' }}>Regulatory Affairs</span>
               <p>
@@ -142,10 +141,15 @@ const PCF = props => (
           <p>
             We’re aiming for an early Q2 (April 2021) design handoff so deciding
             the medium as a responsive web app/form in Phase 1 would be the most
-            resource effective. We'd like to integrate with SAP backend and
-            auto-populate hospital/contact/product info from CRM. A limitation
-            is that we would be unable to automatically submit the form in eQMS
-            in Phase 1, and thus required manual entry from the team members.
+            resource effective. We'd like to integrate with an SAP database and
+            <strong>
+              {' '}
+              auto-populate hospital / contacts / product info dc{' '}
+            </strong>{' '}
+            from an Applied Medical CRM -- thus saving time finding contact
+            information. A limitation is that we would be unable to
+            automatically submit the form in eQMS in Phase 1, and thus required
+            manual entry from the team members.
           </p>
         </div>
 
@@ -202,11 +206,10 @@ const PCF = props => (
           <h2>Current Process</h2>
           <p>
             To create an intuitive process, we must first understand the current
-            processes in place to find opportunities. By interviewing field team
-            members, we were able to create a flow, and a persona of the user
-            who would be using this application. Afterwards, synthesizing the
-            notes, we were able to create a user journey throughout the product
-            complaint process.
+            processes in place to find opportunities. After interviewing
+            multiple Field Team members located in the Northeastern region, we
+            were able to create a user journey, and solidify the persona of the
+            ideal user who would be using this application.
           </p>
           <p style={center}>
             <img src={flow} />
@@ -253,39 +256,47 @@ const PCF = props => (
         </div>
 
         <div className="inner">
-          <h2>Solutions</h2>
+          <h2>Iterations v1</h2>
           <p>
-            <img src={img000} style={{ paddingRight: '3%', maxWidth: '33%' }} />
-            <img src={img001} style={{ paddingRight: '3%', maxWidth: '33%' }} />
-            <img src={img002} style={{ paddingRight: '3%', maxWidth: '33%' }} />
+            <Zoom>
+              <img src={iterations} style={{ maxWidth: '100%' }} alt="web" />
+            </Zoom>
           </p>
-          <img src={img003} style={{ paddingRight: '3%', maxWidth: '33%' }} />
-          <img src={img004} style={{ paddingRight: '3%', maxWidth: '33%' }} />
-          <img src={img005} style={{ paddingRight: '3%', maxWidth: '33%' }} />
           <p style={{ textAlign: 'center' }}>
-            ☝️ A collection of different screens in the web mobile version.
+            ☝️ A collection of different screens in the web mobile version v1.
           </p>
         </div>
-        <img src={pcf3} style={roundedCorners} alt="web" />
-        <p style={{ textAlign: 'center' }}>Desktop version</p>
+
+        <div className="inner">
+          <h2>Solutions</h2>
+
+          <p>
+            <img src={solutions} style={{ maxWidth: '100%' }} alt="web" />
+          </p>
+        </div>
+        <Zoom>
+          <img src={pcf2} style={roundedCorners} alt="web" />
+        </Zoom>
+        <p style={{ textAlign: 'center' }}>☝️ Desktop version</p>
         <div className="inner">
           <h2>Takeaways</h2>
           <p>
-            Currently, there is ongoing development and our design team is
-            supporting the web development team by explaining our interactions,
-            component refinements, and working through edge case scenarios.
+            There is ongoing development and our design team is currently
+            supporting the web dev team by explaining our interactions,
+            component refinements, and working through various edgecase
+            scenarios. Our front end web team strucutured the backend themselves
+            so this was a smooth development process.
           </p>
           <p>
-            In future phases, we’d like the ability to integrate with eQMS
-            system to streamline the complaint process without the manual e-mail
-            step. Also future plans to develop a native iOS mobile application
-            dedicated to functions to serve the Field Team members daily
-            activities.
+            In future phases, we would like the ability to integrate with eQMS
+            system to streamline the process without the manual e-mail step.
           </p>
           <p>
             We’d like to measure KPIs such as decrease in the rate of late
             submissions and overall quality of life improvements for field team
-            members and the customer support team.
+            members and the customer support team. In addition, the promptness
+            of the data entry from Customer Satisfaction team will also increase
+            as a result.
           </p>
         </div>
       </section>
