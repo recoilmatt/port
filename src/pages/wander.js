@@ -232,6 +232,7 @@ const Generic = props => (
             Analyzing my research results, I was able to focus on a specific
             problem within travel journey...
           </p>
+          <p>
           <blockquote>
             We have observed that Google Docs and Sheets were
             <strong> not adequately meeting the travel itinerary </strong>
@@ -239,6 +240,7 @@ const Generic = props => (
             collaborate in real time to create an itinerary to create an
             experience at <strong>every stage</strong> of the travel journey.
           </blockquote>
+          </p>
 
           <h2>
             Persona &nbsp;
@@ -247,8 +249,7 @@ const Generic = props => (
             </span>
           </h2>
           <p>
-            After collaborating with my user interviews, I crafted a user
-            persona -- Jennifer -- the ideal Wanderer.
+            I used the interview data to craft a persona to lead my findings in the direction towards an ideal user. Personas a great tool in order to communicate to the stakeholder about the hypothesized customer. Here, we have our ideal user - Jennifer - who will be the traveler in this user story.
           </p>
         </div>
         <span className="image main">
@@ -302,14 +303,15 @@ const Generic = props => (
               </li>
             </ul>
           </p>
+          <p>
           <blockquote>
             Users want that balance between <strong>flexibility</strong>,
             <strong> reassurance</strong>, and <strong>discovery</strong> in
             their travel itinerary.
           </blockquote>
-
+          </p>
           <h2>
-            Task Flow
+            Task Flow &nbsp;
             <span role="img" aria-label="persona">
               🌊
             </span>
