@@ -228,6 +228,10 @@ const PCF = props => (
         <div className="inner">
           <h2>User Journey</h2>
           <p>
+            The user journey allows us to find opportunity for this application
+            to impact the life of the users in a postiive way.
+          </p>
+          <p>
             <Zoom>
               <img src={img009} style={{ maxWidth: '100%' }} />
             </Zoom>

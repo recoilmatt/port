@@ -62,14 +62,6 @@ const Generic = props => (
             and beautiful.
           </p>
 
-          <span className="image main">
-            <img
-              src={travelbrainstorm}
-              style={{ height: '250px', objectFit: 'cover' }}
-              alt=""
-            />
-          </span>
-
           <h2>Design Prompt</h2>
           <blockquote>
             How can we improve the travel experience through a digital product?
@@ -84,7 +76,7 @@ const Generic = props => (
         </span>
         <div className="inner">
           <h2>
-            Discovery + Research
+            Discovery + Research &nbsp;
             <span role="img" aria-label="survey">
               📝
             </span>
@@ -113,15 +105,16 @@ const Generic = props => (
             and planned for their trips.
           </p>
 
-          <blockquote>
-            "I think the the most important aspect is the
-            <strong> communication</strong> with people you’re traveling with.
-            Especially if there is a clash in personality and interests. I've
-            had arguments over little things." - Kathleen
-          </blockquote>
-
+          <p>
+            <blockquote>
+              "I think the the most important aspect is the
+              <strong> communication</strong> with people you’re traveling with.
+              Especially if there is a clash in personality and interests. I've
+              had arguments over little things." - Kathleen
+            </blockquote>
+          </p>
           <h2>
-            Insights
+            Insights &nbsp;
             <span role="img" aria-label="insights">
               💡
             </span>
@@ -130,31 +123,43 @@ const Generic = props => (
           <p>
             Through my interviews, I encountered two types of personalities --
             users who are quite detailed oriented to the time and place, and
-            travelers who prefer to go with the flow. These discussions led me
-            to narrow down a few pain points that occurred commonly throughout
-            the travel journey.
+            travelers who prefer to go with the flow. Using affinity mapping,
+            these discussions led me to group together various pain points that
+            occurred commonly throughout the travel journey.
           </p>
-
-          <ul>
-            <li>
-              Users need multiple applications and different platforms for
-              planning (4/4)
-            </li>
-            <li>
-              There's too little time to visit many places on the schedule.
-              (3/4)
-            </li>
-            <li>
-              Lack of dedicated travel collaboration options is frustrating.
-              (2/4)
-            </li>
-            <li>
-              Users struggle to engage travel partners of choices in the
-              planning process. (1/4)
-            </li>
-            <li>Travel plans don't go as 100% as expected. (4/4)</li>
-          </ul>
-
+          <div className="grid-wrapper">
+            <div className="col-6">
+              <ul>
+                <li>
+                  Users need{' '}
+                  <strong>multiple applications and different platform </strong>
+                  for planning (4/4)
+                </li>
+                <li>
+                  There's <strong>too little time</strong> to visit many places
+                  on the schedule. (3/4)
+                </li>
+                <li>
+                  Lack of dedicated <strong>travel collaboration </strong>
+                  options is frustrating. (2/4)
+                </li>
+                <li>
+                  Users struggle to <strong>engage travel partners </strong>of
+                  choices in the planning process. (1/4)
+                </li>
+                <li>Travel plans don't go as 100% as expected. (4/4)</li>
+              </ul>
+            </div>
+            <div className="col-6">
+              <span className="image main">
+                <img
+                  src={travelbrainstorm}
+                  style={{ objectFit: 'cover' }}
+                  alt=""
+                />
+              </span>
+            </div>
+          </div>
           <p>
             At this stage, my initial thoughts were to solve the problems for
             two sets of users -- I had to narrow down on features that allow
@@ -163,7 +168,7 @@ const Generic = props => (
           </p>
 
           <h2>
-            Competitive Audit
+            Competitive Audit &nbsp;
             <span role="img" aria-label="insights">
               📈
             </span>
@@ -233,13 +238,13 @@ const Generic = props => (
             problem within travel journey...
           </p>
           <p>
-          <blockquote>
-            We have observed that Google Docs and Sheets were
-            <strong> not adequately meeting the travel itinerary </strong>
-            functionality. We can improve this process by allowing users to
-            collaborate in real time to create an itinerary to create an
-            experience at <strong>every stage</strong> of the travel journey.
-          </blockquote>
+            <blockquote>
+              We have observed that Google Docs and Sheets were
+              <strong> not adequately meeting the travel itinerary </strong>
+              functionality. We can improve this process by allowing users to
+              collaborate in real time to create an itinerary to create an
+              experience at <strong>every stage</strong> of the travel journey.
+            </blockquote>
           </p>
 
           <h2>
@@ -249,7 +254,11 @@ const Generic = props => (
             </span>
           </h2>
           <p>
-            I used the interview data to craft a persona to lead my findings in the direction towards an ideal user. Personas a great tool in order to communicate to the stakeholder about the hypothesized customer. Here, we have our ideal user - Jennifer - who will be the traveler in this user story.
+            I used the interview data to craft a persona to lead my findings in
+            the direction towards an ideal user. Personas a great tool in order
+            to communicate to the stakeholder about the hypothesized customer.
+            Here, we have our ideal user - Jennifer - who will be the traveler
+            in this user story.
           </p>
         </div>
         <span className="image main">
@@ -304,11 +313,11 @@ const Generic = props => (
             </ul>
           </p>
           <p>
-          <blockquote>
-            Users want that balance between <strong>flexibility</strong>,
-            <strong> reassurance</strong>, and <strong>discovery</strong> in
-            their travel itinerary.
-          </blockquote>
+            <blockquote>
+              Users want that balance between <strong>flexibility</strong>,
+              <strong> reassurance</strong>, and <strong>discovery</strong> in
+              their travel itinerary.
+            </blockquote>
           </p>
           <h2>
             Task Flow &nbsp;
@@ -357,7 +366,7 @@ const Generic = props => (
           </p>
 
           <h2>
-            Hi-Fi Mocks
+            Hi-Fi Mocks &nbsp;
             <span role="img" aria-label="persona">
               🎨
             </span>
@@ -462,7 +471,7 @@ const Generic = props => (
         </span>
         <div class="inner">
           <h2>
-            Validation
+            Validation &nbsp;
             <span role="img" aria-label="check">
               ✅
             </span>
@@ -479,7 +488,7 @@ const Generic = props => (
 
           <br />
           <h2>
-            Final Thoughts
+            Final Thoughts &nbsp;
             <span role="img" aria-label="persona">
               💭
             </span>

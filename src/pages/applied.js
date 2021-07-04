@@ -36,11 +36,11 @@ const Applied = props => (
             </p>
 
             <div className="grid-wrapper">
-              <div className="col-12">
+              <div className="col-12" style={{ paddingBottom: '10%' }}>
                 <h1 style={{ margin: 0 }}>General Document Routing</h1>
                 <p>
                   Internal tool to route important documents for electronic
-                  approval and signatures.
+                  signatures through a chain of approvers.
                 </p>
                 <Link to="/gdr" style={{ borderBottom: 'none' }}>
                   <img
@@ -57,8 +57,9 @@ const Applied = props => (
               <div className="col-12">
                 <h1 style={{ margin: 0 }}>Product Complaint Form</h1>
                 <p>
-                  Responsive web application for Field Team members to report
-                  issues regard medical device products.
+                  Web application for Field Team members to report issues
+                  regarding medical device products intergrated within the
+                  company portal.
                 </p>
                 <Link to="/pcf" style={{ borderBottom: 'none' }}>
                   <img
