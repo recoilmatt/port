@@ -45,26 +45,26 @@ const Generic = props => (
           <p>
             New perspectives, different cultures, delicious food, and memorable
             experiences. The feeling of wandering in an unfamiliar place,
-            getting (somewhat) lost, and finally finding where you've been
-            wanting to see for the longest time. These are thoughts that run
-            past a traveler's mind each time they explore a new place. In my
+            getting (hopefully somewhat!) lost, and the excitement of finally
+            reaching your destination. These are thoughts that run past a
+            traveler's mind each time they explore an unfamiliar place. In my
             first sprint of my design course at UC Irvine Extension, our cohort
-            was tasked to solve a problem encountered while traveling.
+            was tasked to solve a problem within the travel experience.
           </p>
-
           <p>
             In order to explore human centered design, we investigated what
-            users wanted -- our class had all experienced the ups and downs of
-            the travel process. We gathered in groups and listed what were the
-            current solutions, features, user problems, activities during
-            travel, during a brainstorming session. My design goal was to solve
-            a problem with a a digital product that is simple to use, flexible,
-            and beautiful.
+            exactly users wanted - our class had all experienced the joys and
+            pains of the travel process. We gathered in small groups and listed
+            what were the current solutions, features, user problems, activities
+            during travel, during a brainstorming session. My design goal was to
+            solve a problem with a digital product that is simple to use,
+            flexible, and beautiful as well.
           </p>
 
           <h2>Design Prompt</h2>
           <blockquote>
-            How can we improve the travel experience through a digital product?
+            How can we improve the <strong>travel experience </strong>travel
+            experience through a digital product?
           </blockquote>
         </div>
         <span className="image main">
@@ -82,9 +82,9 @@ const Generic = props => (
             </span>
           </h2>
           <p>
-            I started my initial research by surveying on a popular travel group
-            to gather what apps travelers have been currently using for their
-            journey.
+            I started my initial research by initiating
+            <strong> surveying</strong> on a popular travel group to gather what
+            applications travelers have been currently using for their journey.
           </p>
           <p>
             Google Sheets / Docs - 177 <br />
@@ -98,11 +98,11 @@ const Generic = props => (
             Evernote - 1<br />
           </p>
           <p>
-            In addition, I conducted four user interviews who had traveled
-            within the previous months. These interviews gave me insight into
-            how they booked their accommodations, their personal motivations,
-            what they would change next time, pain points, and how they traveled
-            and planned for their trips.
+            In addition, I conducted <strong> four user interviews</strong> who
+            had traveled within the previous months. These interviews gave me
+            insight into how they booked their accommodations, their personal
+            motivations, what they would change next time, pain points, and how
+            they traveled and planned for their trips.
           </p>
 
           <p>
@@ -123,9 +123,10 @@ const Generic = props => (
           <p>
             Through my interviews, I encountered two types of personalities --
             users who are quite detailed oriented to the time and place, and
-            travelers who prefer to go with the flow. Using affinity mapping,
-            these discussions led me to group together various pain points that
-            occurred commonly throughout the travel journey.
+            travelers who prefer to go with the flow. Using{' '}
+            <strong> affinity mapping</strong> , these discussions led me to
+            group together various pain points that occurred commonly throughout
+            the travel journey.
           </p>
           <div className="grid-wrapper">
             <div className="col-6">
@@ -174,8 +175,8 @@ const Generic = props => (
             </span>
           </h2>
           <p>
-            I conducted a competitive audit between applications that users had
-            suggested.
+            I conducted a <strong> competitive audit</strong> between
+            applications that users had suggested.
             <p>
               <ul>
                 <br />
@@ -255,10 +256,11 @@ const Generic = props => (
           </h2>
           <p>
             I used the interview data to craft a persona to lead my findings in
-            the direction towards an ideal user. Personas a great tool in order
-            to communicate to the stakeholder about the hypothesized customer.
-            Here, we have our ideal user - Jennifer - who will be the traveler
-            in this user story.
+            the direction towards an ideal user. <strong>Personas</strong> are
+            great tool in order to effectively communicate to the stakeholders
+            about the hypothesized customer. Here, we have our ideal user -
+            Jennifer - who will be the traveler in this{' '}
+            <strong> user story</strong> .
           </p>
         </div>
         <span className="image main">
@@ -274,10 +276,11 @@ const Generic = props => (
           </h2>
 
           <p>
-            In this initial sketch, I had a task flow to feature the timeline to
-            organize and create events through a card structure. A floating
-            action button was added to access many different features such as
-            adding a new day, a suggestion, or new food spot.
+            In this initial sketch, I had a <strong> task flow</strong> to
+            feature the timeline to organize and create events through a card
+            structure. A floating action button was added to access many
+            different features such as adding a new day, a suggestion, or new
+            food spot.
             <span className="image main">
               <img src={Wireframe} style={{ borderRadius: '8px' }} alt="" />
             </span>

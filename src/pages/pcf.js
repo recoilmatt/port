@@ -140,16 +140,18 @@ const PCF = props => (
           <h2>Scope + Constraints</h2>
           <p>
             We’re aiming for an early Q2 (April 2021) design handoff so deciding
-            the medium as a responsive web app/form in Phase 1 would be the most
-            resource effective. We'd like to integrate with an SAP database and
+            the medium as a responsive web application in Phase 1 would be the
+            most resource effective. We'd like to integrate with the SAP
+            database and
             <strong>
               {' '}
-              auto-populate hospital / contacts / product info dc{' '}
+              auto-populate hospital / contacts / product info
             </strong>{' '}
-            from an Applied Medical CRM -- thus saving time finding contact
-            information. A limitation is that we would be unable to
-            automatically submit the form in eQMS in Phase 1, and thus required
-            manual entry from the team members.
+            from an Applied Medical CRM, saving time for the users to find
+            contact information. A limitation is that we would be unable to
+            automatically submit the form in eQMS automatically in Phase 1, and
+            thus required manual entry from the corresponding regulatory team
+            members.
           </p>
         </div>
 
@@ -206,10 +208,11 @@ const PCF = props => (
           <h2>Current Process</h2>
           <p>
             To create an intuitive process, we must first understand the current
-            processes in place to find opportunities. After interviewing
-            multiple Field Team members located in the Northeastern region, we
-            were able to create a user journey, and solidify the persona of the
-            ideal user who would be using this application.
+            processes in place to find opportunities for growth. Interviewing
+            multiple field team members located in the Northeastern region
+            through a series of Teams calls, we were able to create a user
+            journey, and solidify the persona of the ideal user who would be
+            using this application.
           </p>
           <p style={center}>
             <img src={flow} />
@@ -228,8 +231,8 @@ const PCF = props => (
         <div className="inner">
           <h2>User Journey</h2>
           <p>
-            The user journey allows us to find opportunity for this application
-            to impact the life of the users in a postiive way.
+            The user journey map allows us as designers to find opportunities
+            for this application to ease the pain points for the user.
           </p>
           <p>
             <Zoom>
@@ -243,12 +246,12 @@ const PCF = props => (
           <div className="grid-wrapper">
             <div className="col-6">
               <p>
-                Using a remote testing session, we assigned three participants
-                four different tasks to complete with a user scenario using
-                desktop and mobile prototype and encouraged them to think out
-                loud during the process while screensharing. At the end of the
-                testing, we gathered all results and discussed the users’
-                comments for iterations.
+                Using a remote usablity testing session, we assigned three
+                participants four different tasks to complete with a scenario
+                using desktop and mobile prototypes and encouraged them to think
+                out loud during the process while screensharing. At the end of
+                the testing session, we gathered all results and discussed the
+                users’ comments for iterations.
               </p>
             </div>
             <div className="col-6">
