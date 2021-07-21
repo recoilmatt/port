@@ -7,6 +7,8 @@ import pic03 from '../assets/images/photography/pic03.jpg'
 import pic04 from '../assets/images/photography/pic04.jpg'
 import pic05 from '../assets/images/photography/pic05.jpg'
 import Banner from '../assets/images/banner.jpg'
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 const roundedCorners = {
   display: 'block',
@@ -29,27 +31,39 @@ const Photography = props => (
         <div className="inner">
           <div className="grid-wrapper">
             <div className="col-4">
-              <img src={pic01} style={roundedCorners} alt="" />
+              <Zoom>
+                <img src={pic01} style={roundedCorners} alt="" />
+              </Zoom>
             </div>
 
             <div className="col-4">
-              <img src={pic02} style={roundedCorners} alt="" />
+              <Zoom>
+                <img src={pic02} style={roundedCorners} alt="" />
+              </Zoom>
             </div>
 
             <div className="col-4">
-              <img src={pic03} style={roundedCorners} alt="" />
+              <Zoom>
+                <img src={pic03} style={roundedCorners} alt="" />
+              </Zoom>
             </div>
 
             <div className="col-4">
-              <img src={Banner} style={roundedCorners} alt="" />
+              <Zoom>
+                <img src={Banner} style={roundedCorners} alt="" />
+              </Zoom>
             </div>
 
             <div className="col-4">
-              <img src={pic04} style={roundedCorners} alt="" />
+              <Zoom>
+                <img src={pic04} style={roundedCorners} alt="" />
+              </Zoom>
             </div>
 
             <div className="col-4">
-              <img src={pic05} style={roundedCorners} alt="" />
+              <Zoom>
+                <img src={pic05} style={roundedCorners} alt="" />
+              </Zoom>
             </div>
           </div>
         </div>
