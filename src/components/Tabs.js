@@ -72,7 +72,7 @@ const Tabs = props => (
       }}
     >
       <Link to="/misc">
-        <span>Misc Projects</span>
+        <span>Personal Designs</span>
       </Link>
     </div>
   </div>
