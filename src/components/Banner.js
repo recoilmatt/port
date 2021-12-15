@@ -15,7 +15,7 @@ const Banner = props => (
         <p>
           i love good design + interactions + usability.
           <br />
-          i'm currently learning web development.
+          currently designing @ experian
         </p>
       </div>
     </div>

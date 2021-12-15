@@ -14,7 +14,7 @@ const Generic = props => (
       <div className="inner">
         <header className="major">
           <h2>
-            I'm a designer with a passion for intuitive product experiences
+            I'm a designer with a passion for creating good experiences.
             <span role="img" aria-label="art">
               🎨
             </span>
@@ -24,21 +24,24 @@ const Generic = props => (
         <div className="grid-wrapper">
           <div className="col-6">
             <p>
-              Integrating my experiences in biological sciences, healthcare, and
-              digital marketing, I am able to apply my skills towards the design
-              process to create meaningful digital products that solve problems
-              supported by analytical data. I am expanding my front end
-              development skills to become an UX Engineer in the future.
+              Hey there — I'm Matt — a digital product designer based in
+              Southern California. Integrating my experiences in biological
+              sciences, healthcare, and digital marketing, I am able to apply my
+              skills towards the process to create products that solve problems
+              supported by analytical data. A quote I love is "diagnose with
+              data, and treat with design". My goal is to innovate someday and
+              to create digital products that people actually want to use! In my
+              spare time, I am expanding my front end development skills.
             </p>
             <p>
-              My tools are Figma and Adobe Creative Suite -- with skills for
-              prototyping such as Protopie. For development, I'm currently
-              learning the MERN stack with an interest in creating design
-              systems.
+              My tools are Figma, and I'm learning skills for prototyping such
+              as Protopie. For web dev, I'm currently learning the MERN stack
+              with an interest in creating design systems.
             </p>
             <p>
-              My hobbies include photography, travel, and matcha related things.
-              I'm cooler on Instagram{' '}
+              In my spare time, my hobbies include photography, traveling to
+              cafes to get desserts, and matcha related stuff. I'm cooler on
+              Instagram{' '}
               <a href="http://www.instagram.com/recoilmatt">@recoilmatt</a>
             </p>
           </div>
