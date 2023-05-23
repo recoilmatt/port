@@ -14,7 +14,7 @@ import 'react-medium-image-zoom/dist/styles.css'
 const Projects = props => (
   <Layout>
     <Helmet>
-      <title>Personal Design Projects</title>
+      <title>Personal Projects</title>
       <meta name="description" content="Personal Projects" />
     </Helmet>
 

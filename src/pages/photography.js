@@ -13,9 +13,10 @@ import 'react-medium-image-zoom/dist/styles.css'
 const roundedCorners = {
   display: 'block',
   margin: 'auto',
-  borderRadius: '8px',
+
   maxWidth: '100%',
   maxHeight: '50vh',
+  marginTop: '5%',
   marginBottom: '5%',
 }
 

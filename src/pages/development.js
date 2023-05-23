@@ -3,7 +3,6 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 //Images
 import home from '../assets/images/cafe/home.jpg'
-import anime from '../assets/images/misc/anime.png'
 
 import Tabs from '../components/Tabs'
 import Zoom from 'react-medium-image-zoom'
@@ -71,39 +70,6 @@ const Development = props => (
                 <div className="button">live</div>
               </a>
             </div>
-          </section>
-
-          <section>
-            <Zoom>
-              <span className="image main">
-                <img src={anime} alt="shef" />
-              </span>
-            </Zoom>
-            <section class="overview">
-              <div>
-                <h4>myAnimeList</h4>
-              </div>
-              <div>
-                A web app created with React that uses Jikan anime api to fetch
-                top animes and also adds to a watchlist in localStorage.
-              </div>
-              <div
-                className="col-12"
-                style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  marginBottom: '5%',
-                }}
-              >
-                <a href="https://github.com/recoilmatt/animewatchlist">
-                  <div className="button">github</div>
-                </a>
-                <a href="https://anime-watchlist.netlify.app/">
-                  <div className="button">live</div>
-                </a>
-              </div>
-            </section>
           </section>
         </div>
       </section>

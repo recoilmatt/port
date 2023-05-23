@@ -113,7 +113,7 @@ const PCF = props => (
             </div>
             <div className="col-4">
               <p style={center}>
-                <img src={user2} />
+                <img src={user2} alt="img" />
               </p>
               <span style={{ fontWeight: '600' }}>Field Implementation</span>
               <p>
@@ -160,7 +160,7 @@ const PCF = props => (
             <div className="grid-wrapper">
               <div className="col-4">
                 <p style={center}>
-                  <img src={user4} />
+                  <img src={user4} alt="img"></img>
                 </p>
                 <span style={{ fontWeight: '600' }}>
                   USER 1 - Account Manager (France)
@@ -168,7 +168,7 @@ const PCF = props => (
               </div>
               <div className="col-4">
                 <p style={center}>
-                  <img src={user5} />
+                  <img src={user5} alt="img" />
                 </p>
                 <span style={{ fontWeight: '600' }}>
                   USER 2 - Account Manager (New England)
@@ -214,7 +214,7 @@ const PCF = props => (
             using this application.
           </p>
           <p style={center}>
-            <img src={flow} />
+            <img src={flow} alt="flow" />
           </p>
         </div>
 
@@ -269,7 +269,10 @@ const PCF = props => (
             </Zoom>
           </p>
           <p style={{ textAlign: 'center' }}>
-            ☝️ A collection of different screens in the web mobile version v1.
+            <span role="img" aria-label="1">
+              ☝️
+            </span>
+            A collection of different screens in the web mobile version v1.
           </p>
         </div>
 
